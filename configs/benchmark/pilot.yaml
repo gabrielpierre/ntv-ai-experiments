@@ -1,0 +1,19 @@
+schema_version: 2
+purpose: exploratory
+operation: smoke
+origins:
+- ntv_ai
+targets: []
+recipes:
+  full640:
+  - yolo26-s-full640.yaml
+  - dfine-s-full640.yaml
+  - rfdetr-nano-full640.yaml
+  tiles1280:
+  - yolo26-s-tiles1280.yaml
+  - dfine-s-tiles1280.yaml
+  - rfdetr-nano-tiles1280.yaml
+seeds:
+- 42
+evaluation_split: test
+epochs: 5

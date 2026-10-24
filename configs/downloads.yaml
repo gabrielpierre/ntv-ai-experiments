@@ -1,0 +1,48 @@
+schema_version: 1
+datasets:
+  ptl_ai:
+    source: https://github.com/freds0/PTL-AI_Furnas_Dataset
+    artifacts:
+      - url: https://drive.google.com/uc?id=1JfVxRV6C0vwLTBhW-C97fwj4gawraGHe
+        path: archives/furnas_dataset_v0.07.tar.bz
+        extract_to: raw/dataset
+        bytes: 1096350112
+        sha256: bda2bb453f6a335ce957acf077c975f65843305d80dba3bd6b77b47fe8095d9a
+  stn_plad:
+    source: https://github.com/andreluizbvs/PLAD
+    artifacts:
+      - url: https://github.com/andreluizbvs/PLAD/releases/download/1.0/plad.zip
+        path: archives/plad.zip
+        extract_to: raw/plad
+        bytes: 988934065
+        sha256: 8aba5d853faee310b9a915fa0564d081d58c5b387a7abc177aa2ad3703eeda59
+      - url: https://github.com/andreluizbvs/PLAD/files/8952243/labels.zip
+        path: archives/labels.zip
+        extract_to: raw/labels
+        bytes: 236528
+        sha256: dba33d7b6b8f898bf471bb18e30bdfe9f24a232bce704b3dd5be657710823705
+  mpid:
+    source: https://github.com/phd-benel/MPID
+    folder: https://drive.google.com/drive/folders/1HfByI7MaTWUkrbozej27tye3aAKKJQMy
+    destination: raw/MPID
+  cplid:
+    source: https://github.com/InsulatorData/InsulatorDataSet
+    artifacts:
+      - url: https://codeload.github.com/InsulatorData/InsulatorDataSet/zip/1f6349f619237344d49905090ecf2704505394a4
+        path: archives/repository.zip
+        extract_to: raw/repository
+        bytes: 409177208
+        sha256: 8925dd4b135fff9257458f6db2e69bada05509d49b1922ae05ce3b1f4d72d580
+  ttpla:
+    source: https://github.com/R3ab/ttpla_dataset
+    artifacts:
+      - url: https://codeload.github.com/R3ab/ttpla_dataset/zip/72ddf48cfee6d25b89fa8063e4dcd44bad08cddb
+        path: archives/repository.zip
+        extract_to: raw/repository
+        bytes: 36047366
+        sha256: 8fc7cfe8ee1cf0b24499fdabc0e52c8bdb0652e4f93b1ce81a9323b4f275a417
+      - url: https://drive.google.com/uc?id=1Yz59yXCiPKS0_X4K3x9mW22NLnxjvrr0
+        path: archives/data_original_size_v1.zip
+        extract_to: raw/dataset
+        bytes: 4510541945
+        sha256: 490ba618040a432cf482fe922a5108086a0d8656da8d58087718ba2df88786db

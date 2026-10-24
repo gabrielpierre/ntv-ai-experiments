@@ -1,0 +1,13 @@
+backend: rfdetr
+variant: nano
+weights:
+  path: data/assets/rf-detr-nano.pth
+  sha256: d8d6b9ee57d4d0ed2b1f305163624712a0532cb7bce0c747317984fc5457440d
+pretraining: COCO; checkpoint oficial do fornecedor
+package:
+  name: rfdetr
+  version: 1.11.0
+  revision: d96d6ff9303ec5af7bb8f73e83f0f04ecb6ef728
+  wheel:
+    path: data/assets/rfdetr-1.11.0-py3-none-any.whl
+    sha256: 8ba29e551d74e03f146066ece12f29ec4eb6795b0348bd257c4b16a87eca7cff

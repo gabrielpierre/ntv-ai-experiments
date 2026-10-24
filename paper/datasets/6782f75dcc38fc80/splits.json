@@ -1,0 +1,115 @@
+{
+  "train": [],
+  "val": [],
+  "test": [
+    {
+      "image_id": "07621c6abb5b5c123d1abe1ebfa2b0de6eda20758d20caf6f96aa02078bcae25",
+      "path": "estaiada-completa/DJI_202509111142_003/DJI_20250911114714_0114_V.JPG",
+      "sha256": "07621c6abb5b5c123d1abe1ebfa2b0de6eda20758d20caf6f96aa02078bcae25",
+      "capture": "003"
+    },
+    {
+      "image_id": "0893f5d623ca14102a3ea29a3a98467e8c7cd2763145fdd3ac42963a0e39e2f4",
+      "path": "estaiada-completa/DJI_202509111110_002/DJI_20250911111712_0237_V.JPG",
+      "sha256": "0893f5d623ca14102a3ea29a3a98467e8c7cd2763145fdd3ac42963a0e39e2f4",
+      "capture": "002"
+    },
+    {
+      "image_id": "10a57cafec5bbce88d9744efbf9d7eaf8eff29ef51f8c7c54a1560a7ebb9e00d",
+      "path": "estaiada-completa/DJI_202509111110_002/DJI_20250911111645_0199_V.JPG",
+      "sha256": "10a57cafec5bbce88d9744efbf9d7eaf8eff29ef51f8c7c54a1560a7ebb9e00d",
+      "capture": "002"
+    },
+    {
+      "image_id": "1ac227cd1423c2b7b17c04076d39fb08b9355acfab1d85dfee3302d365498dd9",
+      "path": "raw/images/DJI_20250911105510_0481_V.jpg",
+      "sha256": "8a315a27b295ec02f926f7d5baffb4fc70ead4b25f8c8b916aa9266b23b55424",
+      "capture": "001"
+    },
+    {
+      "image_id": "20500f61991f74fe64bc6646eb908ce74fae99c70529de702247295f28a8ad7f",
+      "path": "raw/images/DJI_20250911105524_0501_V.jpg",
+      "sha256": "52fcc2bfae65727774da9208ee963bcb057c9892ac84d0b2492b9655a2e75920",
+      "capture": "001"
+    },
+    {
+      "image_id": "241f309599a73effe8f0d99563396890452692822e7089819a8b323932e967d7",
+      "path": "raw/images/DJI_20250911105503_0470_V.jpg",
+      "sha256": "fe2acd58458b62fbc0cb87fd0e49a58c2f2af4b1191dbf6bf2d8f7aac7c85234",
+      "capture": "001"
+    },
+    {
+      "image_id": "2d960b96cce9cb7a5c6632cb52a8773174372226302dc9fc189504eb95253227",
+      "path": "estaiada-completa/DJI_202509111042_001/DJI_20250911104942_0013_V.JPG",
+      "sha256": "2d960b96cce9cb7a5c6632cb52a8773174372226302dc9fc189504eb95253227",
+      "capture": "001"
+    },
+    {
+      "image_id": "3c762a6728d07c0e4dc2c9d974a350a41e4ea98a374e5bdf8677693cb2c5ec86",
+      "path": "estaiada-completa/DJI_202509111042_001/DJI_20250911104945_0016_V.JPG",
+      "sha256": "3c762a6728d07c0e4dc2c9d974a350a41e4ea98a374e5bdf8677693cb2c5ec86",
+      "capture": "001"
+    },
+    {
+      "image_id": "43d2e138b040fb0bec7cf3843e9dff0890acd2f8a242a19bd100f23ece04be12",
+      "path": "estaiada-completa/DJI_202509111042_001/DJI_20250911104944_0015_V.JPG",
+      "sha256": "43d2e138b040fb0bec7cf3843e9dff0890acd2f8a242a19bd100f23ece04be12",
+      "capture": "001"
+    },
+    {
+      "image_id": "440796f1947ae45eab52bba84c2e46a5bbd8b48f44ff8ee21c5a21e0927c944d",
+      "path": "raw/images/DJI_20250911105517_0491_V.jpg",
+      "sha256": "805e54aaaed5fa93dd3a620f006190f65a1d332f5488ba582e0ad79138a5d635",
+      "capture": "001"
+    },
+    {
+      "image_id": "4a682756003b14d4738b907e40552bee056b45d7e7e91f4f573a3332a2c1c139",
+      "path": "estaiada-completa/DJI_202509111042_001/DJI_20250911105035_0088_V.JPG",
+      "sha256": "4a682756003b14d4738b907e40552bee056b45d7e7e91f4f573a3332a2c1c139",
+      "capture": "001"
+    },
+    {
+      "image_id": "5c8985b189f9a63ea6d49c16d563a954b1b8eb38a189df16ea8ee1c6cef2f8c4",
+      "path": "raw/images/DJI_20250911105435_0430_V.jpg",
+      "sha256": "30eba5835553ca1e1efaa97d4d980e7a4c4f78e51a97ae95a79642cce7dfdbef",
+      "capture": "001"
+    },
+    {
+      "image_id": "5eeb0045dabcaf4a1076d07df1138aceda0a1f56bb01f558506b3ec5eb27e512",
+      "path": "estaiada-completa/DJI_202509111142_003/DJI_20250911114809_0192_V.JPG",
+      "sha256": "5eeb0045dabcaf4a1076d07df1138aceda0a1f56bb01f558506b3ec5eb27e512",
+      "capture": "003"
+    },
+    {
+      "image_id": "61223bce50d15b9cb05dbd8c8c4a970991313e7037dfe675d2d0f5894e11c909",
+      "path": "estaiada-completa/DJI_202509111142_003/DJI_20250911114808_0191_V.JPG",
+      "sha256": "61223bce50d15b9cb05dbd8c8c4a970991313e7037dfe675d2d0f5894e11c909",
+      "capture": "003"
+    },
+    {
+      "image_id": "6a633c2734c905a316799cef88688725e649688d29f23d0d5ad0e1b1d9816042",
+      "path": "raw/images/DJI_20250911105449_0450_V.jpg",
+      "sha256": "6c09f85dd2ab653154477ad916104b8842bc8562cf540b48955467431f6d23a3",
+      "capture": "001"
+    },
+    {
+      "image_id": "8d41e2530e45145fca72a78cdab79de001c3346efb9374a0b1822de4bb18e126",
+      "path": "raw/images/DJI_20250911105456_0460_V.jpg",
+      "sha256": "86373dd538d85c1c3e627c8fedc639c526cfbe80778d7fb79b07f2346e85046d",
+      "capture": "001"
+    },
+    {
+      "image_id": "94b1987daab664d7c866726a3d61b7fa9ac4ed136e22e527f258c57e29c0f3a1",
+      "path": "raw/images/DJI_20250911105442_0440_V.jpg",
+      "sha256": "8b3e2b54573e34010840c914c784c47118771de90371e80da1ae46e0260eb4d8",
+      "capture": "001"
+    },
+    {
+      "image_id": "c17abf2df21ec92d445aeefd965f74d519e4aeeb037d081dc709c335fd64fd27",
+      "path": "estaiada-completa/DJI_202509111042_001/DJI_20250911104943_0014_V.JPG",
+      "sha256": "c17abf2df21ec92d445aeefd965f74d519e4aeeb037d081dc709c335fd64fd27",
+      "capture": "001"
+    }
+  ],
+  "null": []
+}

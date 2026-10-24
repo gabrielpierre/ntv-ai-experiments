@@ -1,0 +1,12 @@
+repository: ${PROJECT}
+manifest: ${ARCHIVE}/datasets/ntv-human-development-20261019/full640/manifest.json
+output: ${ARCHIVE}/resultados/annotator-development-20261019
+models: [yolo26-s, dfine-s, rfdetr-nano]
+seed: 43
+epochs: 100
+tile_workers: 4
+cpu_threads: 4
+interpreters:
+  ntv-yolo26l: ${USER_HOME}/.conda/envs/ntv-yolo26l/bin/python
+  ntv-dfine: ${USER_HOME}/.conda/envs/ntv-dfine/bin/python
+  ntv-rfdetr: ${USER_HOME}/.conda/envs/ntv-rfdetr/bin/python

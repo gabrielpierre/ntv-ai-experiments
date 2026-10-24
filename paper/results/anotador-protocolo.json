@@ -1,0 +1,132 @@
+{
+  "accuracy_limits": {
+    "AP50_drop": 0.005,
+    "AR50_95_drop": 0.005,
+    "mAP50_95_drop": 0.005,
+    "per_class_mAP_drop": 0.02
+  },
+  "autoportante_used": false,
+  "classes": [
+    "torre",
+    "isolador",
+    "fundacao_concreto",
+    "fundacao_estai",
+    "espacador",
+    "amortecedor",
+    "sinalizacao"
+  ],
+  "confidence_evaluation": 0.001,
+  "confidence_export": 0.1,
+  "full_seed_reason": "Seed 43 matches the existing proposer; no new seed search using the historical test.",
+  "input_files": {
+    "combination_script": {
+      "path": "${ARCHIVE}/resultados/anotador-combinado-20261016/scripts/combinar_preanotacoes.py",
+      "sha256": "35a874795fee07352b27913f754a95dcf144397c6f662aff3ab562395bd3ad97"
+    },
+    "comparison": {
+      "path": "${ARCHIVE}/resultados/anotador-v2-20261016/comparison.json",
+      "sha256": "3104a7d1a8310a5c847929a2b496d5a8b42a155f0779fb3c8e9fbdebd18c6fdb"
+    },
+    "fast_inference": {
+      "path": "${ARCHIVE}/resultados/anotador-v2-20261016/scripts/fast_inference.py",
+      "sha256": "35356deb3cbd1ea5846e2e258e7399ca0842c6e808a75c92e0e947ebdeeb8459"
+    },
+    "inventory": {
+      "path": "${ARCHIVE}/datasets/ntv-estaiada-curadoria-20261015/proveniencia/manifesto_completo.json",
+      "sha256": "306f13e84646599da06529641631cb89c876e67733b474cf792df6eaf20efc91"
+    },
+    "new_operational_coco": {
+      "path": "${ARCHIVE}/resultados/anotador-v2-20261016/preanotacoes-restante/preanotacoes.coco.json",
+      "sha256": "fe21de3825dc91965e140d8f119bbf436fafcc0dc3be011949105d23d84d4908"
+    },
+    "new_operational_engine": {
+      "path": "${ARCHIVE}/resultados/anotador-v2-20261016/preanotacoes-restante/engine.json",
+      "sha256": "77910ee2777f9b00a2b58a691fd6f5fbef94a09ed7fe04cdb30f7b6b7d24dd3c"
+    },
+    "new_operational_predictions": {
+      "path": "${ARCHIVE}/resultados/anotador-v2-20261016/preanotacoes-restante/predictions.jsonl",
+      "sha256": "05d9edd059908f940ef9d6df469ab72ece0baee82f07a110b86893d94a001f2a"
+    },
+    "new_operational_validation": {
+      "path": "${ARCHIVE}/resultados/anotador-v2-20261016/preanotacoes-restante/qualification-20261016T175931474703/float16-4.jsonl",
+      "sha256": "da4e64e92478aa9d2ace8823e3e802109cce5d9ccd5ff55c1053fc09560ae720"
+    },
+    "new_reference": {
+      "path": "${ARCHIVE}/resultados/anotador-v2-20261016/runs/20261016T175900-2876905e5852/predictions.jsonl",
+      "sha256": "79fe96f5d48f0ee8bd6310c87db84d65fcf7dec0f224d7264a55852799fcd897"
+    },
+    "old_reference": {
+      "path": "${ARCHIVE}/resultados/anotador-v2-20261016/runs/20261016T142948-70ef6dd39437/predictions.jsonl",
+      "sha256": "7f266ae5c66815b9a6f3d4fed7a6cb73444ae8f50c77fd25759cff074a0a7ce6"
+    },
+    "qualify_inference": {
+      "path": "${ARCHIVE}/resultados/anotador-v2-20261016/scripts/qualify_inference.py",
+      "sha256": "8d94fa2610866147a8d41428516f5142a61cb6cee0fc8eccc91db23368521dbf"
+    },
+    "recipe": {
+      "path": "${ARCHIVE}/resultados/anotador-v2-20261016/recipe.json",
+      "sha256": "77dce9ed100cac14d17fa78dc0df79f46c4842f77d913a8d6ce63d7fa22e440d"
+    }
+  },
+  "intended_routing": {
+    "amortecedor": "new_tiles",
+    "espacador": "old_tiles",
+    "fundacao_concreto": "old_tiles",
+    "fundacao_estai": "old_tiles",
+    "isolador": "new_tiles",
+    "sinalizacao": "new_tiles",
+    "torre": "old_full"
+  },
+  "max_detections_evaluation": 100,
+  "merge": "One proposer per class; concatenate its detections. No cross-class NMS, box averaging, score calibration or global truncation.",
+  "models": {
+    "new_tiles": {
+      "path": "${ARCHIVE}/resultados/anotador-v2-20261016/runs/20261016T143021-b45e5e7ee0fe/selection/best.pth",
+      "sha256": "d05fad1c90d31903a6afe7da47fb301e87401051116d20b7f167bf3293f43654"
+    },
+    "old_full": {
+      "path": "${ARCHIVE}/modelos/externos-20261008/modelos-ntv-ai-20260929/rfdetr-nano/full640/seed-43.pth",
+      "sha256": "6b29cbb0ab6ec2f189cf7e996c236400b20602ab3c8fd93f401176a6712e6d5d"
+    },
+    "old_tiles": {
+      "path": "${ARCHIVE}/modelos/externos-20261008/modelos-ntv-ai-20260929/rfdetr-nano/tiles1280/seed-43.pth",
+      "sha256": "170f65f5427e0648c669013d30f8dfca9c9088a318b634ee8ade0089b73e8ece"
+    }
+  },
+  "old_acceleration_options": [
+    {
+      "batch": 4,
+      "precision": "float16"
+    },
+    {
+      "batch": 8,
+      "precision": "float16"
+    },
+    {
+      "batch": 4,
+      "precision": "fp32"
+    }
+  ],
+  "promotion_rule": "At confidence 0.10, combined mAP50-95 must exceed current operational candidate and no class AP50-95 may decrease (tolerance 1e-10).",
+  "purpose": "Operational preannotation, selected on development validation; not an independent scientific test.",
+  "source_images_modified": false,
+  "tile_iou": 0.5,
+  "tower_rule": "Use full640 only if tower AP50-95 exceeds the new tiles proposer on the same ten validation images; otherwise retain new_tiles.",
+  "training_performed": false,
+  "validation_image_ids": [
+    "2a7eba73a42ba866ac77effb6a299ec12351d1168b56e85082b7b74368f22e9a",
+    "2e761ff84704787fa91c9b890495cec0431abaf40e0110b0b90f68e92ce79621",
+    "4652ff9cc462c15b74b02403ede583e0ea1b81945e29889798afb0833b763dce",
+    "4c599284f46c17d8fceb1719bbfbd8aa357a4ee979d7a39918155020ffd30194",
+    "4fcaffe3d88a6cc70117f08e2dce64159203f65cee4f253e89ef671f0293b454",
+    "6a131b0d5dae8cb7e93f2a784028d1bf7cda3ed20ee3205a6d03a99956f69edb",
+    "71529a200125781f10e32b939078de8560267df41605182d5c46254453dfee63",
+    "93db9be46d39d2e68411e1038ac6574d2c7acf614a217fa8acddb53a8865187f",
+    "d517874f4db092a5e0c61661bb6f1d34d2104012f495448d17890b9d973171d2",
+    "f80266aad7d131d63fd9f21d4f5bf5e841a04e23239ff002bb3cad88c40cd09e"
+  ],
+  "validation_manifest": {
+    "path": "${ARCHIVE}/datasets/ntv-anotador-v2-20261016/prepared/manifest.json",
+    "sha256": "87b7c74f0cbb3306265dcad1cf21887163c0370e3a2d3d5dce59e9b750315443"
+  }
+}

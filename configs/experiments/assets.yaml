@@ -1,0 +1,26 @@
+files:
+- path: data/assets/coco8.zip
+  url: https://github.com/ultralytics/assets/releases/download/v0.0.0/coco8.zip
+  sha256: 54c67fe9ef88313e021ec0e92b73c200167bb0a86633e8df8658d832cca828c9
+- path: data/assets/coco8.yaml
+  url: https://raw.githubusercontent.com/ultralytics/ultralytics/v8.4.155/ultralytics/cfg/datasets/coco8.yaml
+  sha256: 030aaffa08f8a161dc3587d216aa956c0c8947e594b2d9d8515a36b9ac44f9fa
+- path: data/assets/yolo26s.pt
+  url: https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26s.pt
+  sha256: 646f8bc3fe0a656803d95c294f7852321748cb29d13466a1af8862e2db384a1b
+- path: data/assets/dfine_s_coco.pth
+  url: https://github.com/Peterande/storage/releases/download/dfinev1.0/dfine_s_coco.pth
+  sha256: 48a6c8cc43eb57186843f752e2e8461ddd3326e0d3c575e71e6e960844683e89
+- path: data/assets/rf-detr-nano.pth
+  url: https://storage.googleapis.com/rfdetr/nano_coco/checkpoint_best_regular.pth
+  sha256: d8d6b9ee57d4d0ed2b1f305163624712a0532cb7bce0c747317984fc5457440d
+- path: data/assets/rfdetr-1.11.0-py3-none-any.whl
+  url: https://files.pythonhosted.org/packages/ab/f7/ee0760fcb5af157c113a758e97a0c7fc1a6d296395c808a461af68d0ec94/rfdetr-1.11.0-py3-none-any.whl
+  sha256: 8ba29e551d74e03f146066ece12f29ec4eb6795b0348bd257c4b16a87eca7cff
+- path: data/assets/ultralytics-8.4.155-py3-none-any.whl
+  url: https://files.pythonhosted.org/packages/9a/49/4e250de54d420d0451ad33f64bb787f9ad56941a109f28b90bd0e0a79645/ultralytics-8.4.155-py3-none-any.whl
+  sha256: 0f872e119fb4ebb166857a88632dab876e9daccacee79f27cd416bccdec36510
+repositories:
+- path: data/vendor/dfine
+  url: https://github.com/Peterande/D-FINE.git
+  revision: 956d1709314c2c6a4df6f34de232054578a7449f

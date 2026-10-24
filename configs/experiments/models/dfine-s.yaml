@@ -1,0 +1,9 @@
+backend: dfine
+variant: s
+weights:
+  path: data/assets/dfine_s_coco.pth
+  sha256: 48a6c8cc43eb57186843f752e2e8461ddd3326e0d3c575e71e6e960844683e89
+pretraining: COCO; checkpoint oficial do fornecedor
+implementation:
+  path: data/vendor/dfine
+  revision: 956d1709314c2c6a4df6f34de232054578a7449f

@@ -1,0 +1,17 @@
+schema_version: 1
+purpose: software_smoke_only
+dataset: datasets/coco8.yaml
+protocol:
+  id: software-memory-v1
+  resolution: 1280
+  max_detections: 100
+  checkpoint_metric: mAP50_95
+  selection_split: val
+  weight_policy: ema
+  confidence: 0.001
+  tile_iou: 0.5
+  warmup: 5
+  repeats: 10
+model: models/rfdetr-nano.yaml
+training: training/rfdetr-nano.yaml
+runtime: runtime/rfdetr.yaml

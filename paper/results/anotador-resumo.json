@@ -1,0 +1,39 @@
+{
+  "all_pending_human_review": true,
+  "annotations": 109424,
+  "capture_counts": {
+    "DJI_202509111042_001": 1354,
+    "DJI_202509111110_002": 1975,
+    "DJI_202509111142_003": 1020
+  },
+  "class_counts": {
+    "amortecedor": 40847,
+    "espacador": 9719,
+    "fundacao_concreto": 13948,
+    "fundacao_estai": 19106,
+    "isolador": 10980,
+    "sinalizacao": 2385,
+    "torre": 12439
+  },
+  "coco": {
+    "path": "${ARCHIVE}/resultados/anotador-combinado-20261016/preanotacoes-restante/preanotacoes.coco.json",
+    "sha256": "30a3703b87d061ebbc20d8f89e965f2ef256103b1fa9c664f45b565f425e0edb"
+  },
+  "completed_at": "2026-10-16T20:34:52.889636+00:00",
+  "images": 4349,
+  "journal": {
+    "path": "${ARCHIVE}/resultados/anotador-combinado-20261016/preanotacoes-restante/predictions.jsonl",
+    "sha256": "d7f2b7cf60e373dab63f17ebee418236adde0adae7aa05528901700efb99c85c"
+  },
+  "reused_candidate_images": 4349,
+  "routing": {
+    "amortecedor": "new_tiles",
+    "espacador": "old_tiles",
+    "fundacao_concreto": "old_tiles",
+    "fundacao_estai": "old_tiles",
+    "isolador": "new_tiles",
+    "sinalizacao": "new_tiles",
+    "torre": "old_full"
+  },
+  "source_inputs_unchanged": true
+}

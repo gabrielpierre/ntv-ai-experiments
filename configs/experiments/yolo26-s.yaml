@@ -1,0 +1,7 @@
+schema_version: 1
+purpose: software_smoke_only
+dataset: datasets/coco8.yaml
+protocol: protocols/smoke.yaml
+model: models/yolo26-s.yaml
+training: training/yolo26-s.yaml
+runtime: runtime/yolo26.yaml

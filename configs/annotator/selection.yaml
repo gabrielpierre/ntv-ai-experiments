@@ -1,0 +1,5 @@
+manifest: ${ARCHIVE}/datasets/ntv-human-development-20261019/full640/manifest.json
+output: ${ARCHIVE}/resultados/annotator-selection-20261019/selection.json
+# Filled with six completed training runs, never software smoke checkpoints.
+candidates: []
+thresholds: [0.01, 0.025, 0.05, 0.075, 0.10, 0.15, 0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.80, 0.90]

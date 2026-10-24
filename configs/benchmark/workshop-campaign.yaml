@@ -1,0 +1,26 @@
+schema_version: 1
+purpose: exploratory
+session: ntv-workshop-20261014
+workspace: ${ARCHIVE}/resultados/workshop-20261014
+previous_workspace: ${ARCHIVE}/resultados/externos-20261008
+deadline: '2026-10-15T23:59:00-03:00'
+report_reserve_seconds: 3600
+vlm_budget_seconds: 43200
+seeds: [42, 43, 44]
+protocols: [full640, tiles1280]
+classes: [isolador, espacador, amortecedor]
+arms:
+  ntv_only: [ntv_ai]
+  external_pool: [ptl_ai, stn_plad]
+  mixed: [ptl_ai, stn_plad, ntv_ai]
+validation_source: ntv_ai
+targets: [ntv_ai, ptl_ai, stn_plad]
+cpu_threads: 8
+models:
+  grounding_dino:
+    repository: IDEA-Research/grounding-dino-tiny
+    precision: fp32
+  qwen:
+    repository: Qwen/Qwen3-VL-4B-Instruct
+    precision: nf4-bfloat16
+    max_new_tokens: 4096

@@ -1,0 +1,148 @@
+{
+  "created_at": "2026-10-23T23:56:46.099112+00:00",
+  "images": 4427,
+  "boxes": 110917,
+  "unique_file_hashes": 4427,
+  "dimensions": {
+    "5280x3956": 4427
+  },
+  "classes": [
+    "torre",
+    "isolador",
+    "fundacao_concreto",
+    "fundacao_estai",
+    "espacador",
+    "amortecedor",
+    "sinalizacao"
+  ],
+  "class_objects": {
+    "torre": 12580,
+    "espacador": 9863,
+    "isolador": 11134,
+    "fundacao_concreto": 14047,
+    "fundacao_estai": 19323,
+    "sinalizacao": 2454,
+    "amortecedor": 41516
+  },
+  "class_images": {
+    "amortecedor": 2200,
+    "torre": 4427,
+    "fundacao_concreto": 4408,
+    "isolador": 1890,
+    "fundacao_estai": 4418,
+    "sinalizacao": 1502,
+    "espacador": 2837
+  },
+  "capture_images": {
+    "DJI_202509111042_001": 1412,
+    "DJI_202509111142_003": 1030,
+    "DJI_202509111110_002": 1985
+  },
+  "capture_class_objects": {
+    "DJI_202509111042_001": {
+      "torre": 4905,
+      "espacador": 6453,
+      "isolador": 7601,
+      "fundacao_concreto": 3450,
+      "fundacao_estai": 6940,
+      "sinalizacao": 2047,
+      "amortecedor": 29252
+    },
+    "DJI_202509111142_003": {
+      "fundacao_estai": 4139,
+      "fundacao_concreto": 3065,
+      "torre": 2661,
+      "sinalizacao": 100,
+      "espacador": 943,
+      "amortecedor": 493,
+      "isolador": 5
+    },
+    "DJI_202509111110_002": {
+      "espacador": 2467,
+      "sinalizacao": 307,
+      "isolador": 3528,
+      "fundacao_estai": 8244,
+      "fundacao_concreto": 7532,
+      "torre": 5014,
+      "amortecedor": 11771
+    }
+  },
+  "capture_class_images": {
+    "DJI_202509111042_001": {
+      "amortecedor": 1394,
+      "torre": 1412,
+      "fundacao_concreto": 1412,
+      "isolador": 1412,
+      "fundacao_estai": 1412,
+      "sinalizacao": 1155,
+      "espacador": 1400
+    },
+    "DJI_202509111142_003": {
+      "torre": 1030,
+      "fundacao_estai": 1022,
+      "fundacao_concreto": 1017,
+      "amortecedor": 111,
+      "sinalizacao": 94,
+      "espacador": 693,
+      "isolador": 4
+    },
+    "DJI_202509111110_002": {
+      "amortecedor": 695,
+      "fundacao_concreto": 1979,
+      "torre": 1985,
+      "isolador": 474,
+      "sinalizacao": 253,
+      "fundacao_estai": 1984,
+      "espacador": 744
+    }
+  },
+  "size_by_class": {
+    "torre": {
+      "large": 12580
+    },
+    "espacador": {
+      "large": 5214,
+      "medium": 4255,
+      "small": 394
+    },
+    "isolador": {
+      "large": 5013,
+      "medium": 5709,
+      "small": 412
+    },
+    "fundacao_concreto": {
+      "medium": 12116,
+      "large": 635,
+      "small": 1296
+    },
+    "fundacao_estai": {
+      "medium": 11466,
+      "small": 7606,
+      "large": 251
+    },
+    "sinalizacao": {
+      "medium": 1251,
+      "small": 1035,
+      "large": 168
+    },
+    "amortecedor": {
+      "small": 20793,
+      "medium": 20524,
+      "large": 199
+    }
+  },
+  "native78_boxes": 1547,
+  "review4349_boxes": 109370,
+  "empty_images": 0,
+  "review_ui_status": {
+    "accepted": 33,
+    "pending": 4316
+  },
+  "review_last_update": "2026-10-23T23:09:02.333415+00:00",
+  "human_review_evidence": "Author confirmed full correction and second human review in conversation on 2026-10-23. UI stages are preserved; no reviewer identities, timestamps or agreement scores are inferred.",
+  "validation": {
+    "unique_images": true,
+    "valid_bbox_geometry": true,
+    "semantic_accuracy_measured": false
+  }
+}

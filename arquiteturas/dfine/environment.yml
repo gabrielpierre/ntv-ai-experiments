@@ -1,0 +1,17 @@
+name: ntv-dfine
+channels:
+- conda-forge
+- nodefaults
+dependencies:
+- python=3.12
+- pip
+- pip:
+  - --extra-index-url https://download.pytorch.org/whl/cu128
+  - torch==2.10.0+cu128
+  - torchvision==0.25.0+cu128
+  - faster-coco-eval==1.7.2
+  - scipy==1.18.1
+  - calflops==0.3.2
+  - transformers==4.57.6
+  - loguru==0.7.3
+  - tensorboard==2.21.0

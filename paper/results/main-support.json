@@ -1,0 +1,117 @@
+{
+  "expanded18": {
+    "boxes": 411,
+    "captures": {
+      "001": 13,
+      "002": 2,
+      "003": 3
+    },
+    "classes": {
+      "amortecedor": {
+        "images": 14,
+        "objects": 174
+      },
+      "espacador": {
+        "images": 15,
+        "objects": 42
+      },
+      "fundacao_concreto": {
+        "images": 18,
+        "objects": 40
+      },
+      "fundacao_estai": {
+        "images": 18,
+        "objects": 62
+      },
+      "isolador": {
+        "images": 15,
+        "objects": 46
+      },
+      "sinalizacao": {
+        "images": 10,
+        "objects": 11
+      },
+      "torre": {
+        "images": 18,
+        "objects": 36
+      }
+    },
+    "images": 18
+  },
+  "historical8": {
+    "boxes": 138,
+    "captures": {
+      "001": 8
+    },
+    "classes": {
+      "amortecedor": {
+        "images": 7,
+        "objects": 29
+      },
+      "espacador": {
+        "images": 7,
+        "objects": 19
+      },
+      "fundacao_concreto": {
+        "images": 8,
+        "objects": 16
+      },
+      "fundacao_estai": {
+        "images": 8,
+        "objects": 31
+      },
+      "isolador": {
+        "images": 8,
+        "objects": 24
+      },
+      "sinalizacao": {
+        "images": 3,
+        "objects": 3
+      },
+      "torre": {
+        "images": 8,
+        "objects": 16
+      }
+    },
+    "images": 8
+  },
+  "new10": {
+    "boxes": 273,
+    "captures": {
+      "001": 5,
+      "002": 2,
+      "003": 3
+    },
+    "classes": {
+      "amortecedor": {
+        "images": 7,
+        "objects": 145
+      },
+      "espacador": {
+        "images": 8,
+        "objects": 23
+      },
+      "fundacao_concreto": {
+        "images": 10,
+        "objects": 24
+      },
+      "fundacao_estai": {
+        "images": 10,
+        "objects": 31
+      },
+      "isolador": {
+        "images": 7,
+        "objects": 22
+      },
+      "sinalizacao": {
+        "images": 7,
+        "objects": 8
+      },
+      "torre": {
+        "images": 10,
+        "objects": 20
+      }
+    },
+    "images": 10
+  }
+}

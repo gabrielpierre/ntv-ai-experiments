@@ -1,0 +1,7 @@
+schema_version: 1
+purpose: software_smoke_only
+dataset: datasets/coco8.yaml
+protocol: protocols/smoke.yaml
+model: models/rfdetr-nano.yaml
+training: training/rfdetr-nano.yaml
+runtime: runtime/rfdetr.yaml

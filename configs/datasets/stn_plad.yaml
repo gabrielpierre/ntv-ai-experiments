@@ -1,0 +1,7 @@
+id: stn_plad
+format: coco
+root: ../../data/external/stn_plad
+images: [raw/plad/**/*]
+annotations: [raw/plad/annotations.json]
+folds: [raw/labels/*.json]
+annotation_scope: {}

@@ -1,0 +1,5 @@
+# Substituir pela referência imutável de uma preparação elegível.
+manifest: ../data/prepared/REPLACE_RUN_ID/manifest.json
+runs: ../runs
+split: test
+max_detections: 100

@@ -1,0 +1,15 @@
+cpu_threads: 4
+epochs: 100
+interpreters:
+  ntv-dfine: ${USER_HOME}/.conda/envs/ntv-dfine/bin/python
+  ntv-rfdetr: ${USER_HOME}/.conda/envs/ntv-rfdetr/bin/python
+  ntv-yolo26l: ${USER_HOME}/.conda/envs/ntv-yolo26l/bin/python
+manifest: ${ARCHIVE}/datasets/ntv-human-development-20261019/full640/manifest.json
+models:
+- yolo26-s
+- dfine-s
+- rfdetr-nano
+output: ${ARCHIVE}/resultados/annotator-smoke-20261019-v2
+repository: ${PROJECT}
+seed: 43
+tile_workers: 4

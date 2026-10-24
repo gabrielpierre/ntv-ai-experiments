@@ -1,0 +1,18 @@
+schema_version: 2
+purpose: exploratory
+operation: train
+origins: [ptl_ai, mpid, stn_plad, ttpla]
+targets_by_origin:
+  ptl_ai: [ptl_ai, ntv_ai]
+  mpid: [mpid, ntv_ai]
+  stn_plad: [stn_plad, ntv_ai]
+  ttpla: [ttpla, ntv_ai]
+recipes:
+  full640: [yolo26-s-full640.yaml, dfine-s-full640.yaml, rfdetr-nano-full640.yaml]
+  tiles1280: [yolo26-s-tiles1280.yaml, dfine-s-tiles1280.yaml, rfdetr-nano-tiles1280.yaml]
+seeds: [42, 43, 44]
+evaluation_split: test
+execution:
+  max_concurrent_jobs: 1
+  gpu_reserve_mib: 2048
+  cpu_threads: 8

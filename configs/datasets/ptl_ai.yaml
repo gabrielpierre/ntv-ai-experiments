@@ -1,0 +1,6 @@
+id: ptl_ai
+format: coco
+root: ../../data/external/ptl_ai
+images: [raw/dataset/**/imgs/**/*]
+annotations: [raw/dataset/**/data/coco/*.json]
+annotation_scope: {}

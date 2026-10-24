@@ -1,0 +1,154 @@
+{
+  "annotations": 411,
+  "images": 18,
+  "issues": "issues.json",
+  "issues_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "lineage": {
+    "frozen_at": "2026-10-23T23:18:35.601459+00:00",
+    "operation": "evaluation_only",
+    "review_snapshot_sha256": "cc9a363d9bac2212c2c380928799066605fabd3c767de7bc7a4cca2add7bfdc4",
+    "selected_reviews_sha256": "b1b0f3d5bfdeadbd8646cc2394709e1961dea38763c1f6fcb5db0582835304f7"
+  },
+  "records": "images.jsonl",
+  "records_sha256": "d192e5e6b78a82d127a391433a26365ca5b1e712081d5847c3fcb124f5082492",
+  "schema_version": "1.0",
+  "sources": {
+    "ntv_ai": {
+      "config": {
+        "annotation_scope": {},
+        "format": "yolo",
+        "id": "ntv_ai",
+        "images": [
+          "raw/images/*.jpg"
+        ],
+        "root": "${ARCHIVE}/datasets/externos-20261008/ntv_ai",
+        "subsets": [
+          {
+            "layout": {
+              "images": "raw/images",
+              "labels": "raw/lote-exploratorio/labels/train"
+            },
+            "name": "lote-exploratorio",
+            "yaml": "raw/lote-exploratorio/data.yaml"
+          }
+        ],
+        "workers": 16
+      },
+      "evidence": {
+        "raw/lote-exploratorio/data.yaml": "ebb32b10212ecbe2e2ccf66aff7e3a297c9bb57729f34e0ed6e61eb67ddfd978",
+        "raw/lote-exploratorio/labels/train/DJI_20250911104934_0001_V.txt": "9ae13ce07572b976ba93d808cb31732c67d22484d46da73e1f79782c6e731d1c",
+        "raw/lote-exploratorio/labels/train/DJI_20250911104941_0011_V.txt": "3da1dce5404720ff9b0800b8e84fcebb2ef5c090fa43b06f6b20c4b3a2506244",
+        "raw/lote-exploratorio/labels/train/DJI_20250911104948_0021_V.txt": "d63dc2cf9148fd42280e5c1eb98db925ce1dae24c1c23887aa7b29862a22c133",
+        "raw/lote-exploratorio/labels/train/DJI_20250911104956_0032_V.txt": "c19992995c4df6fdf6504224a9017e18efb8d700a7da2b63dc13e5738b50641a",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105003_0042_V.txt": "672dddebadaccf13a24dacc2d6e6a7a4a40f405e8114bac1037e90afbee30655",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105010_0052_V.txt": "910b21727d83984fe1095412273cb6e60756d1542811e21dcf1e632adf4d39df",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105017_0062_V.txt": "dbb48504caeeeed80e22298ebcecd2f7b6397e5d5c59fb83db8cd4c042e93abc",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105024_0072_V.txt": "39b5df773d8170ca44371847e43fdf050d4b50b9637f0d22ef818850579e2e58",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105031_0083_V.txt": "c609613b088509715465d0022d8265146bae5ce2a889008c5796b1a1de8ab32e",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105038_0093_V.txt": "d4c1f2d483000d31e56f6e85b5ff11b3651a19e87662cc09714639a0c327d9b4",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105045_0103_V.txt": "7ba3c02cffd7452a1017c8ad2f56341b9588af5ed1b7e389c20c6ecc8ab42a85",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105052_0113_V.txt": "adb5530019f9ec9609f897017a3610fd6988254204fb7f9dcce5cc37e0944c7e",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105059_0123_V.txt": "7985ea1029d6e609f03efa398054885144a054f768c8962f8f7e9061702bedc1",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105107_0134_V.txt": "6d860e03c8e30754c694c5ff438ba8d0000d80828e3e677a456307f1d5859151",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105114_0144_V.txt": "859183ae12871002b77cb9aedc3769f431dd75220e71c4fd72a80c08193af987",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105122_0154_V.txt": "a566e851da9005eb10182d72400a925fc3f14d5a28f4964722b981d56883c455",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105128_0164_V.txt": "b973035591c64d3a4fb79a5b3843624d485ad40053b8cd38a431ace1aa35fb40",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105135_0174_V.txt": "32ae5985ac5000724deb4b84fce103c15fbfa16c9c4bea40fef7d38b11133f3c",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105143_0185_V.txt": "d71225331ca2c9b41a877cc08a6bd1fd7b4c811538b3591c7a1859d63c177ec4",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105150_0195_V.txt": "041f4cbd740687561de773eb9d0e5730f5ab7c0b8cc662130ae415128ece8492",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105157_0205_V.txt": "0c325ec1f0aa13f2b65be89e23364a5bb72128b3f3a03e8c7dd91d98754c0d55",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105204_0215_V.txt": "9ea69a3ed4a6b31c06e1eda91b16fcd4f63ad357ffd1b01ce9cc4c30ba102e34",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105211_0225_V.txt": "6a6d157f362944aaf6f3880fbac83bbdcd65a93c2aebc3151f1b506fd9831cc3",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105219_0236_V.txt": "eac3c16762e3d4cd9266e58951decc9daa9d22d4326b3eb0ae9018ee0bdba34d",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105226_0246_V.txt": "8a24d3af0054d75b09acafa83019ab81ff16d3c234ebea2b6cdbbaa49f3dcc21",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105233_0256_V.txt": "f420b9baf78bec0df3a9059607f95e282c9ae50ebb5154f1762d5df6dc43ccc7",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105240_0266_V.txt": "a076433df4ba8817338f583ea78f6d80153d60cdaed952e3794fc95adaf42755",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105247_0277_V.txt": "dab41000bc01367ae9299806ac8a33cf2f477cbada22f2f66fae843c299244c6",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105254_0287_V.txt": "0d4871e5f9273a3423b0a42a2ddf098e9adb95ef4f15fb7993fb9afb1d854fe9",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105301_0297_V.txt": "518398516e9125b61b72bf66654d905ba1f42d117472130902c0ef1debfa3e44",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105308_0307_V.txt": "7bea1625669369407b726dc9470e95b4169d03c537e5537b2ac35336d60e8266",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105315_0317_V.txt": "b5f88ec7f65e12faf7627a82e290439324555adafec67b9ce2084578970cb0c1",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105323_0328_V.txt": "9796ff7f69a373e507f5ec06bb8367e36cfa8b25f31c14f18a32ef32155d4551",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105330_0338_V.txt": "590c65163a0b851213b24961093d85e8363a4302cabaa97220f3ce05711eeea8",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105337_0348_V.txt": "186846215d02668cef1594e356ec47f0d7c46c622af6e74616653d6f32e0919f",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105344_0358_V.txt": "b1120b0fc64b77c7c0f552b7833132b838621e73d85a9d34a203b69ed73618a7",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105351_0368_V.txt": "85a467d2be9cd9218dfdd4f7caf5ea2e8fd46b4e6e3d01c2e3fd187e0fd9f411",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105359_0379_V.txt": "f248ae5c8a51742a65416d9068a5951bf066f09057ecb32a254ff1b9e317801c",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105406_0389_V.txt": "5eb85afadd1d8f4d7d9a3ae7ee50e3d2603567e71a578ee941a86f26f4456e1b",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105413_0399_V.txt": "09ff75954ce9920faa4637183044efca785847eb60d98f00a4bb29253a234d48",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105420_0409_V.txt": "2a8f4ad1de8849e0a819e607510d36bd400241a9e1fab46851b74101108e2e76",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105427_0419_V.txt": "a4f23acb07faacfae4cf694882996c1929a15e192f33c1dd61040d597b8173a6",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105435_0430_V.txt": "731c40fc69d3af4151dfb170e614507a1c6c91662294dd525d7e29cdf0f28e3d",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105442_0440_V.txt": "29865a459a2632ce916b4c0ad2ebc6b6a29cd8c8968cc54d86fd847560e9d340",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105449_0450_V.txt": "91a45ece69770374ca804fc52613bd4c0e3b0fa49e798893b547306a3ac9bd6b",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105456_0460_V.txt": "b593b4f68ae8c30f61f295b0b0e3a1951cd6d2a488045274b7e0fc6f88944c16",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105503_0470_V.txt": "761b76318bef84323b9a3b35033599a8169ed37aaa2343502a89e52fb2090d82",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105510_0481_V.txt": "5164c15ccb6500f7b46c6c86375540e89770efd19ae7bfd795190e7158447996",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105517_0491_V.txt": "5844ae2a72d604df55d7ab95eaaf5342ec7a487a9f8dd209e0d7fc583654617a",
+        "raw/lote-exploratorio/labels/train/DJI_20250911105524_0501_V.txt": "ad4c1cbc38dcbc6e894ef51f78221f83c13eb5e2c86683ec703273077a62e45d",
+        "raw/lote-exploratorio/train.txt": "6b4601ce3a4d84490634cbe78d1b696d9aac49bc6650360544f174ec5ec4b4ed"
+      },
+      "root": "${DATA_ROOT:ntv_ai}",
+      "version": "4e027a1b26570f9e331c2fff721bbd98052e8994e49fde808dca949dea4516f6"
+    },
+    "ntv_review_extension": {
+      "root": "${DATA_ROOT:ntv_review_extension}",
+      "version": "30a3703b87d061ebbc20d8f89e965f2ef256103b1fa9c664f45b565f425e0edb"
+    }
+  },
+  "training_ready": true,
+  "version": "8a2502d84b5041f37825bff0269ef451e31292d0a93d7961feb40ba2ef21c332",
+  "view": {
+    "classes": [
+      "torre",
+      "isolador",
+      "fundacao_concreto",
+      "fundacao_estai",
+      "espacador",
+      "amortecedor",
+      "sinalizacao"
+    ],
+    "eligible": true,
+    "evaluation_image_ids": [
+      "1ac227cd1423c2b7b17c04076d39fb08b9355acfab1d85dfee3302d365498dd9",
+      "20500f61991f74fe64bc6646eb908ce74fae99c70529de702247295f28a8ad7f",
+      "241f309599a73effe8f0d99563396890452692822e7089819a8b323932e967d7",
+      "440796f1947ae45eab52bba84c2e46a5bbd8b48f44ff8ee21c5a21e0927c944d",
+      "5c8985b189f9a63ea6d49c16d563a954b1b8eb38a189df16ea8ee1c6cef2f8c4",
+      "6a633c2734c905a316799cef88688725e649688d29f23d0d5ad0e1b1d9816042",
+      "8d41e2530e45145fca72a78cdab79de001c3346efb9374a0b1822de4bb18e126",
+      "94b1987daab664d7c866726a3d61b7fa9ac4ed136e22e527f258c57e29c0f3a1",
+      "2d960b96cce9cb7a5c6632cb52a8773174372226302dc9fc189504eb95253227",
+      "c17abf2df21ec92d445aeefd965f74d519e4aeeb037d081dc709c335fd64fd27",
+      "43d2e138b040fb0bec7cf3843e9dff0890acd2f8a242a19bd100f23ece04be12",
+      "3c762a6728d07c0e4dc2c9d974a350a41e4ea98a374e5bdf8677693cb2c5ec86",
+      "4a682756003b14d4738b907e40552bee056b45d7e7e91f4f573a3332a2c1c139",
+      "10a57cafec5bbce88d9744efbf9d7eaf8eff29ef51f8c7c54a1560a7ebb9e00d",
+      "0893f5d623ca14102a3ea29a3a98467e8c7cd2763145fdd3ac42963a0e39e2f4",
+      "07621c6abb5b5c123d1abe1ebfa2b0de6eda20758d20caf6f96aa02078bcae25",
+      "61223bce50d15b9cb05dbd8c8c4a970991313e7037dfe675d2d0f5894e11c909",
+      "5eeb0045dabcaf4a1076d07df1138aceda0a1f56bb01f558506b3ec5eb27e512"
+    ],
+    "id": "expanded18",
+    "image_ids": [
+      "1ac227cd1423c2b7b17c04076d39fb08b9355acfab1d85dfee3302d365498dd9",
+      "20500f61991f74fe64bc6646eb908ce74fae99c70529de702247295f28a8ad7f",
+      "241f309599a73effe8f0d99563396890452692822e7089819a8b323932e967d7",
+      "440796f1947ae45eab52bba84c2e46a5bbd8b48f44ff8ee21c5a21e0927c944d",
+      "5c8985b189f9a63ea6d49c16d563a954b1b8eb38a189df16ea8ee1c6cef2f8c4",
+      "6a633c2734c905a316799cef88688725e649688d29f23d0d5ad0e1b1d9816042",
+      "8d41e2530e45145fca72a78cdab79de001c3346efb9374a0b1822de4bb18e126",
+      "94b1987daab664d7c866726a3d61b7fa9ac4ed136e22e527f258c57e29c0f3a1",
+      "2d960b96cce9cb7a5c6632cb52a8773174372226302dc9fc189504eb95253227",
+      "c17abf2df21ec92d445aeefd965f74d519e4aeeb037d081dc709c335fd64fd27",
+      "43d2e138b040fb0bec7cf3843e9dff0890acd2f8a242a19bd100f23ece04be12",
+      "3c762a6728d07c0e4dc2c9d974a350a41e4ea98a374e5bdf8677693cb2c5ec86",
+      "4a682756003b14d4738b907e40552bee056b45d7e7e91f4f573a3332a2c1c139",
+      "10a57cafec5bbce88d9744efbf9d7eaf8eff29ef51f8c7c54a1560a7ebb9e00d",
+      "0893f5d623ca14102a3ea29a3a98467e8c7cd2763145fdd3ac42963a0e39e2f4",
+      "07621c6abb5b5c123d1abe1ebfa2b0de6eda20758d20caf6f96aa02078bcae25",
+      "61223bce50d15b9cb05dbd8c8c4a970991313e7037dfe675d2d0f5894e11c909",
+      "5eeb0045dabcaf4a1076d07df1138aceda0a1f56bb01f558506b3ec5eb27e512"
+    ]
+  }
+}

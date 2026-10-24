@@ -1,0 +1,7 @@
+id: ttpla
+format: labelme
+root: ../../data/external/ttpla
+images: [raw/dataset/**/*]
+annotations: [raw/dataset/**/*.json]
+splits: [raw/repository/**/splitting_dataset_txt/*.txt]
+annotation_scope: {}

@@ -1,0 +1,49 @@
+schema_version: 1
+purpose: exploratory
+dataset:
+  catalog_required: true
+protocol:
+  id: cross-dataset-full640-v1
+  resolution: 640
+  max_detections: 100
+  checkpoint_metric: mAP50_95
+  selection_split: val
+  weight_policy: ema
+  confidence: 0.001
+  tile_iou: 0.5
+  warmup: 5
+  repeats: 10
+model: ../experiments/models/yolo26-s.yaml
+training:
+  epochs: 10000
+  batch: 1
+  workers: 0
+  seed: 42
+  amp: true
+  native:
+    optimizer: AdamW
+    lr0: 0.001
+    lrf: 0.01
+    warmup_epochs: 0
+    mosaic: 0
+    close_mosaic: 0
+    hsv_h: 0
+    hsv_s: 0
+    hsv_v: 0
+    translate: 0
+    scale: 0
+    fliplr: 0
+    momentum: 0.9
+    weight_decay: 0.0005
+    loss_horizon: 100
+  amp_initial_scale: 256
+  control:
+    warmup_epochs: 3
+    warmup_start_factor: 0.1
+    patience: 25
+    min_delta: 0.001
+    plateau_patience: 10
+    factor: 0.5
+    min_factor: 0.01
+    keep_resume: 2
+runtime: ../experiments/runtime/yolo26.yaml

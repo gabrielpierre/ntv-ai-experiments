@@ -1,0 +1,8 @@
+datasets:
+  - datasets/ptl_ai.yaml
+  - datasets/stn_plad.yaml
+  - datasets/mpid.yaml
+  - datasets/cplid.yaml
+  - datasets/ttpla.yaml
+output: ../data/ingested
+runs: ../runs

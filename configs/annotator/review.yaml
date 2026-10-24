@@ -1,0 +1,9 @@
+workflow: [automatic, in_review, reviewed, validated]
+legacy_accepted_stage: reviewed
+validation_requires_distinct_reviewer: true
+validation_requires_original: true
+invalidate_on_annotation_change: true
+development_export_stages: [reviewed, validated]
+definitive_export_stages: [validated]
+# Enforced invariants of the existing reviewer, not switches that disable validation.
+formats: [coco, yolo_with_provenance]

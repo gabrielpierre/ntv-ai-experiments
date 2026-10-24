@@ -1,0 +1,55 @@
+storage_root: ../..
+taxonomy: configs/benchmark/taxonomy.yaml
+mapping: configs/benchmark/mappings.yaml
+ntv_source: configs/benchmark/ntv-ai.yaml
+reviewed_input_digest: 4e027a1b26570f9e331c2fff721bbd98052e8994e49fde808dca949dea4516f6
+coverage_confirmation:
+  reviewer: user
+  statement: As anotações das oito classes presentes incluem todos os objetos visíveis
+    dessas classes em cada imagem; revisadas.
+  scope: lote-exploratorio-50
+  provenance: confirmação explícita na preparação desta campanha
+ntv_classes:
+- torre
+- isolador
+- fundacao_concreto
+- fundacao_estai
+- espacador
+- amortecedor
+- sinalizacao
+datasets:
+- ntv_ai
+- ptl_ai
+- stn_plad
+- mpid
+- cplid
+- ttpla
+external_classes:
+  ptl_ai:
+  - isolador
+  - amortecedor
+  - espacador
+  - sinalizacao
+  stn_plad:
+  - torre
+  - isolador
+  - amortecedor
+  - espacador
+  - sinalizacao
+  mpid:
+  - isolador
+  cplid:
+  - isolador
+  ttpla:
+  - torre
+  - cabo
+external_manifest:
+  path: data/prepared/20260917T205305-84b0b2f56e3a/manifest.json
+  sha256: 8b86e09168b40e2bbd618177723fb991f05ec509011b0eda55166f692c1fabd9
+historical_review: metadata/external_datasets/v1/similarity_review.csv
+historical_inventories:
+- metadata/external_datasets/v1/ptl_ai_images.csv
+- metadata/external_datasets/v1/stn_plad_images.csv
+- metadata/external_datasets/v1/mpid_images.csv
+- metadata/external_datasets/v1/cplid_images.csv
+- metadata/external_datasets/v1/ttpla_images.csv

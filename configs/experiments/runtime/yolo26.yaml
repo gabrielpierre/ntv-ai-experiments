@@ -1,0 +1,3 @@
+environment: ntv-yolo26l
+device: 0
+storage_root: ../..

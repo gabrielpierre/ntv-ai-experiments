@@ -1,0 +1,12 @@
+name: ntv-rfdetr
+channels:
+- conda-forge
+- nodefaults
+dependencies:
+- python=3.12
+- pip
+- pip:
+  - --extra-index-url https://download.pytorch.org/whl/cu128
+  - torch==2.10.0+cu128
+  - torchvision==0.25.0+cu128
+  - rfdetr[train] @ https://files.pythonhosted.org/packages/ab/f7/ee0760fcb5af157c113a758e97a0c7fc1a6d296395c808a461af68d0ec94/rfdetr-1.11.0-py3-none-any.whl#sha256=8ba29e551d74e03f146066ece12f29ec4eb6795b0348bd257c4b16a87eca7cff

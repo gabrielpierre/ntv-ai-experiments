@@ -1,0 +1,10 @@
+purpose: software_smoke_only
+operation: smoke
+recipes:
+- yolo26-s.yaml
+- dfine-s.yaml
+- rfdetr-nano.yaml
+seeds:
+- 42
+- 43
+- 44

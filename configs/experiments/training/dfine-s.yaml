@@ -1,0 +1,12 @@
+epochs: 1
+batch: 1
+workers: 0
+seed: 42
+amp: true
+native:
+  lr: 0.0002
+  lr_backbone: 0.0001
+  weight_decay: 0.0001
+  warmup_steps: 0
+  augment: false
+amp_initial_scale: 256

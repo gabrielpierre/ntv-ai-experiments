@@ -1,0 +1,31 @@
+schema_version: 2
+purpose: exploratory
+operation: train
+origins:
+- ntv_ai
+- ptl_ai
+- stn_plad
+- mpid
+- cplid
+- ttpla
+targets:
+- ntv_ai
+- ptl_ai
+- stn_plad
+- mpid
+- cplid
+- ttpla
+recipes:
+  full640:
+  - yolo26-s-full640.yaml
+  - dfine-s-full640.yaml
+  - rfdetr-nano-full640.yaml
+  tiles1280:
+  - yolo26-s-tiles1280.yaml
+  - dfine-s-tiles1280.yaml
+  - rfdetr-nano-tiles1280.yaml
+seeds:
+- 42
+- 43
+- 44
+evaluation_split: test

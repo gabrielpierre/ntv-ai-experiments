@@ -1,0 +1,12 @@
+id: ntv_ai
+format: yolo
+root: data/internal/ntv_ai
+images:
+- raw/images/*.jpg
+annotation_scope: {}
+subsets:
+- name: lote-exploratorio
+  yaml: raw/lote-exploratorio/data.yaml
+  layout:
+    images: raw/images
+    labels: raw/lote-exploratorio/labels/train

@@ -1,0 +1,12 @@
+preparation: filtered
+storage_root: ../..
+filtered_root: data/filtered/filtrados
+ntv_root: data/internal/ntv_ai
+preparation_workers: 16
+split_seed: 42
+ntv_input_digest: 4e027a1b26570f9e331c2fff721bbd98052e8994e49fde808dca949dea4516f6
+expected_images: {ptl_ai: 100, mpid: 100, stn_plad: 97, ttpla: 100}
+coverage_confirmation:
+  reviewer: estagiario, conforme confirmado pelo usuario
+  statement: Conjuntos selecionados e anotacoes revisadas; cobertura das classes utilizadas assumida conforme plano aprovado.
+  provenance: conversa de 2026-10-08 e plano aprovado

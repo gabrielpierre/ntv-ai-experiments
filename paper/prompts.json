@@ -1,0 +1,67 @@
+{
+  "annotation_semantics": "unchanged",
+  "classes": [
+    "torre",
+    "isolador",
+    "fundacao_concreto",
+    "fundacao_estai",
+    "espacador",
+    "amortecedor",
+    "sinalizacao"
+  ],
+  "families": {
+    "0": {
+      "grounding_text": "transmission tower. insulator. concrete foundation. guy wire foundation. conductor spacer. vibration damper. sign plate.",
+      "phrases": [
+        "transmission tower",
+        "insulator",
+        "concrete foundation",
+        "guy wire foundation",
+        "conductor spacer",
+        "vibration damper",
+        "sign plate"
+      ],
+      "qwen_text": "Locate every visible instance of these classes in this image.\ntorre: transmission tower\nisolador: insulator\nfundacao_concreto: concrete foundation\nfundacao_estai: guy wire foundation\nespacador: conductor spacer\namortecedor: vibration damper\nsinalizacao: sign plate\nReturn only a JSON object with key \"detections\", an array of objects with exactly \"class_id\" and \"bbox_xyxy\". Use only the class_id values listed above. Each bbox_xyxy is [x_min,y_min,x_max,y_max] in coordinates normalized to 0..1000 relative to this image. Enclose each visible object tightly. Do not infer hidden objects. Return {\"detections\":[]} if none is visible. Return at most 100 objects. Do not include scores, explanations, Markdown or additional keys."
+    },
+    "1": {
+      "grounding_text": "lattice transmission tower. power line insulator string. tower concrete footing. guy wire ground anchor foundation. bundled conductor spacer. Stockbridge vibration damper. tower warning or identification plate.",
+      "phrases": [
+        "lattice transmission tower",
+        "power line insulator string",
+        "tower concrete footing",
+        "guy wire ground anchor foundation",
+        "bundled conductor spacer",
+        "Stockbridge vibration damper",
+        "tower warning or identification plate"
+      ],
+      "qwen_text": "Locate every visible instance of these classes in this image.\ntorre: lattice transmission tower\nisolador: power line insulator string\nfundacao_concreto: tower concrete footing\nfundacao_estai: guy wire ground anchor foundation\nespacador: bundled conductor spacer\namortecedor: Stockbridge vibration damper\nsinalizacao: tower warning or identification plate\nReturn only a JSON object with key \"detections\", an array of objects with exactly \"class_id\" and \"bbox_xyxy\". Use only the class_id values listed above. Each bbox_xyxy is [x_min,y_min,x_max,y_max] in coordinates normalized to 0..1000 relative to this image. Enclose each visible object tightly. Do not infer hidden objects. Return {\"detections\":[]} if none is visible. Return at most 100 objects. Do not include scores, explanations, Markdown or additional keys."
+    },
+    "2": {
+      "grounding_text": "lattice transmission tower, metal framework with crossed beams. power line insulator string, a chain of repeated insulating discs or ribs. tower concrete footing, concrete base supporting a tower leg. guy wire ground anchor foundation, ground foundation where a diagonal guy wire ends. bundled conductor spacer, a rigid fitting connecting parallel conductors. Stockbridge vibration damper, paired metal weights linked by a short cable. tower warning or identification plate, a flat sign with printed symbols or numbers.",
+      "phrases": [
+        "lattice transmission tower, metal framework with crossed beams",
+        "power line insulator string, a chain of repeated insulating discs or ribs",
+        "tower concrete footing, concrete base supporting a tower leg",
+        "guy wire ground anchor foundation, ground foundation where a diagonal guy wire ends",
+        "bundled conductor spacer, a rigid fitting connecting parallel conductors",
+        "Stockbridge vibration damper, paired metal weights linked by a short cable",
+        "tower warning or identification plate, a flat sign with printed symbols or numbers"
+      ],
+      "qwen_text": "Locate every visible instance of these classes in this image.\ntorre: lattice transmission tower, metal framework with crossed beams\nisolador: power line insulator string, a chain of repeated insulating discs or ribs\nfundacao_concreto: tower concrete footing, concrete base supporting a tower leg\nfundacao_estai: guy wire ground anchor foundation, ground foundation where a diagonal guy wire ends\nespacador: bundled conductor spacer, a rigid fitting connecting parallel conductors\namortecedor: Stockbridge vibration damper, paired metal weights linked by a short cable\nsinalizacao: tower warning or identification plate, a flat sign with printed symbols or numbers\nReturn only a JSON object with key \"detections\", an array of objects with exactly \"class_id\" and \"bbox_xyxy\". Use only the class_id values listed above. Each bbox_xyxy is [x_min,y_min,x_max,y_max] in coordinates normalized to 0..1000 relative to this image. Enclose each visible object tightly. Do not infer hidden objects. Return {\"detections\":[]} if none is visible. Return at most 100 objects. Do not include scores, explanations, Markdown or additional keys."
+    },
+    "3": {
+      "grounding_text": "lattice transmission tower, metal framework with crossed beams, carrying overhead power lines. power line insulator string, a chain of repeated insulating discs or ribs, between an energized conductor and its support. tower concrete footing, concrete base supporting a tower leg, at ground level beneath the tower. guy wire ground anchor foundation, ground foundation where a diagonal guy wire ends, offset from the tower and attached to a guy wire. bundled conductor spacer, a rigid fitting connecting parallel conductors, holding bundled conductors apart. Stockbridge vibration damper, paired metal weights linked by a short cable, clamped onto an overhead conductor. tower warning or identification plate, a flat sign with printed symbols or numbers, attached to the tower structure.",
+      "phrases": [
+        "lattice transmission tower, metal framework with crossed beams, carrying overhead power lines",
+        "power line insulator string, a chain of repeated insulating discs or ribs, between an energized conductor and its support",
+        "tower concrete footing, concrete base supporting a tower leg, at ground level beneath the tower",
+        "guy wire ground anchor foundation, ground foundation where a diagonal guy wire ends, offset from the tower and attached to a guy wire",
+        "bundled conductor spacer, a rigid fitting connecting parallel conductors, holding bundled conductors apart",
+        "Stockbridge vibration damper, paired metal weights linked by a short cable, clamped onto an overhead conductor",
+        "tower warning or identification plate, a flat sign with printed symbols or numbers, attached to the tower structure"
+      ],
+      "qwen_text": "Locate every visible instance of these classes in this image.\ntorre: lattice transmission tower, metal framework with crossed beams, carrying overhead power lines\nisolador: power line insulator string, a chain of repeated insulating discs or ribs, between an energized conductor and its support\nfundacao_concreto: tower concrete footing, concrete base supporting a tower leg, at ground level beneath the tower\nfundacao_estai: guy wire ground anchor foundation, ground foundation where a diagonal guy wire ends, offset from the tower and attached to a guy wire\nespacador: bundled conductor spacer, a rigid fitting connecting parallel conductors, holding bundled conductors apart\namortecedor: Stockbridge vibration damper, paired metal weights linked by a short cable, clamped onto an overhead conductor\nsinalizacao: tower warning or identification plate, a flat sign with printed symbols or numbers, attached to the tower structure\nReturn only a JSON object with key \"detections\", an array of objects with exactly \"class_id\" and \"bbox_xyxy\". Use only the class_id values listed above. Each bbox_xyxy is [x_min,y_min,x_max,y_max] in coordinates normalized to 0..1000 relative to this image. Enclose each visible object tightly. Do not infer hidden objects. Return {\"detections\":[]} if none is visible. Return at most 100 objects. Do not include scores, explanations, Markdown or additional keys."
+    }
+  },
+  "language": "English"
+}

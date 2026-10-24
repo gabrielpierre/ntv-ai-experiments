@@ -1,0 +1,574 @@
+{
+  "e685a4b7c5b82e35": {
+    "id": "e685a4b7c5b82e35",
+    "view_id": "mpid-filtered-full640-v1",
+    "classes": [
+      "isolador"
+    ],
+    "tiling": {
+      "border_policy": "clip",
+      "enabled": false,
+      "overlap": 0.25,
+      "size": 1280
+    },
+    "sources": [
+      "mpid"
+    ],
+    "counts": {
+      "train": 65,
+      "val": 18,
+      "test": 17,
+      "excluded": 0
+    },
+    "original_manifest_sha256": "e685a4b7c5b82e3501e7f575024def1ab8950318b32e2b18b7a6cc4195f3b1b6",
+    "original_records_sha256": "d659e1bf2ad9e550cdeb08bcfee43a6ef776d48b289a7d0f5a27d15b6be47044",
+    "original_version": "3f0e1fb9fdab1d39a6116ebeccc8edc58bed92a14171f7254503e076d65c0f61",
+    "public_version": "3f0e1fb9fdab1d39a6116ebeccc8edc58bed92a14171f7254503e076d65c0f61",
+    "records_sha256": "d659e1bf2ad9e550cdeb08bcfee43a6ef776d48b289a7d0f5a27d15b6be47044"
+  },
+  "1eb318a64c288080": {
+    "id": "1eb318a64c288080",
+    "view_id": "mpid-filtered-tiles1280-v1",
+    "classes": [
+      "isolador"
+    ],
+    "tiling": {
+      "border_policy": "clip",
+      "enabled": true,
+      "overlap": 0.25,
+      "size": 1280
+    },
+    "sources": [
+      "mpid"
+    ],
+    "counts": {
+      "train": 65,
+      "val": 18,
+      "test": 17,
+      "excluded": 0
+    },
+    "original_manifest_sha256": "1eb318a64c288080e69edf65b29e5195cdcd5c5ac288fed599e9d5c8b85413c7",
+    "original_records_sha256": "ed09b09bc893fb5dfd279002387416c1c2a3e9e8eed222febbdd07af9d1c71a6",
+    "original_version": "0ae5b9a2d2cc51a0d882d679ce5bb692a86236a79545c553f98fb657307ef205",
+    "public_version": "0ae5b9a2d2cc51a0d882d679ce5bb692a86236a79545c553f98fb657307ef205",
+    "records_sha256": "ed09b09bc893fb5dfd279002387416c1c2a3e9e8eed222febbdd07af9d1c71a6"
+  },
+  "a547144c17328d04": {
+    "id": "a547144c17328d04",
+    "view_id": "ntv_ai-filtered-full640-v1",
+    "classes": [
+      "torre",
+      "isolador",
+      "fundacao_concreto",
+      "fundacao_estai",
+      "espacador",
+      "amortecedor",
+      "sinalizacao"
+    ],
+    "tiling": {
+      "border_policy": "clip",
+      "enabled": false,
+      "overlap": 0.25,
+      "size": 1280
+    },
+    "sources": [
+      "ntv_ai"
+    ],
+    "counts": {
+      "train": 30,
+      "val": 8,
+      "test": 8,
+      "excluded": 4
+    },
+    "original_manifest_sha256": "a547144c17328d04981818d89d1abadfe6cfbe9359b93e5d443a1d9208c6ee4e",
+    "original_records_sha256": "b87353b46ae3d7e6c3639d1984187dd2b04bc3f59c2764f80fa51e5a415dec2e",
+    "original_version": "a212b9ae4d31552cb28c69e79123913ef89c12fd62cfee320d3c7cd2a13c6682",
+    "public_version": "d668f7e9e7f20018c0867ff3b85dd2644d5d28476d58cd16827c0b39eb280c3e",
+    "records_sha256": "1d564687df94fe11b2e8b907b562fa65884ee6d549643dfcb1dbc2d932655db1"
+  },
+  "5548ac8da23595b3": {
+    "id": "5548ac8da23595b3",
+    "view_id": "ntv_ai-filtered-tiles1280-v1",
+    "classes": [
+      "torre",
+      "isolador",
+      "fundacao_concreto",
+      "fundacao_estai",
+      "espacador",
+      "amortecedor",
+      "sinalizacao"
+    ],
+    "tiling": {
+      "border_policy": "clip",
+      "enabled": true,
+      "overlap": 0.25,
+      "size": 1280
+    },
+    "sources": [
+      "ntv_ai"
+    ],
+    "counts": {
+      "train": 30,
+      "val": 8,
+      "test": 8,
+      "excluded": 4
+    },
+    "original_manifest_sha256": "5548ac8da23595b3375bdb1d0f11283d0219b07d3bc5be895c387af47aeff00c",
+    "original_records_sha256": "b71e3f4d0498e63289008d6fc88158217a466e6c79cefe7bf59c812579953284",
+    "original_version": "d7aa59ba0446a44acaf01dbff250dc0236c75d00cd2de66551222e56a955a8d5",
+    "public_version": "671050c52addaaff6fb43561a4587bc027a09c4f8fd6cf8422f1c5b45d49b25e",
+    "records_sha256": "9761f97074355ed20353e151c9be8188683d79db803fad50018ae3471b91cc72"
+  },
+  "f6eb8d928e48a21c": {
+    "id": "f6eb8d928e48a21c",
+    "view_id": "ptl_ai-filtered-full640-v1",
+    "classes": [
+      "isolador",
+      "espacador",
+      "amortecedor",
+      "sinalizacao"
+    ],
+    "tiling": {
+      "border_policy": "clip",
+      "enabled": false,
+      "overlap": 0.25,
+      "size": 1280
+    },
+    "sources": [
+      "ptl_ai"
+    ],
+    "counts": {
+      "train": 65,
+      "val": 18,
+      "test": 17,
+      "excluded": 0
+    },
+    "original_manifest_sha256": "f6eb8d928e48a21cd5af4921b3484491dad0153c1b117874fec7bd1247f1d8b8",
+    "original_records_sha256": "36888b60562712a31db7bb90f0616b378fa49e35e0b822981a4ca589b35f3b7a",
+    "original_version": "682c57d1934f0463aa5bfee400b033189086287ecefff314d3860ad6af5919e8",
+    "public_version": "682c57d1934f0463aa5bfee400b033189086287ecefff314d3860ad6af5919e8",
+    "records_sha256": "36888b60562712a31db7bb90f0616b378fa49e35e0b822981a4ca589b35f3b7a"
+  },
+  "c76354883da378ee": {
+    "id": "c76354883da378ee",
+    "view_id": "ptl_ai-filtered-tiles1280-v1",
+    "classes": [
+      "isolador",
+      "espacador",
+      "amortecedor",
+      "sinalizacao"
+    ],
+    "tiling": {
+      "border_policy": "clip",
+      "enabled": true,
+      "overlap": 0.25,
+      "size": 1280
+    },
+    "sources": [
+      "ptl_ai"
+    ],
+    "counts": {
+      "train": 65,
+      "val": 18,
+      "test": 17,
+      "excluded": 0
+    },
+    "original_manifest_sha256": "c76354883da378ee959fb6e4b0f61f47953fd4c129d96ed1b37bfddd70a2b40c",
+    "original_records_sha256": "a44de1a047143ae896a4e63295df416fb5a8740a5431bcf57924e028cd0f5206",
+    "original_version": "40df13b50fd9a7764294eab9098bc2d6a9a2b9c0997fdd9de66f86e267f3bcd7",
+    "public_version": "40df13b50fd9a7764294eab9098bc2d6a9a2b9c0997fdd9de66f86e267f3bcd7",
+    "records_sha256": "a44de1a047143ae896a4e63295df416fb5a8740a5431bcf57924e028cd0f5206"
+  },
+  "8d675ea07e254db2": {
+    "id": "8d675ea07e254db2",
+    "view_id": "stn_plad-filtered-full640-v1",
+    "classes": [
+      "torre",
+      "isolador",
+      "espacador",
+      "amortecedor",
+      "sinalizacao"
+    ],
+    "tiling": {
+      "border_policy": "clip",
+      "enabled": false,
+      "overlap": 0.25,
+      "size": 1280
+    },
+    "sources": [
+      "stn_plad"
+    ],
+    "counts": {
+      "train": 63,
+      "val": 17,
+      "test": 17,
+      "excluded": 0
+    },
+    "original_manifest_sha256": "8d675ea07e254db2be6ce5ff0cf85aea3319aca8886376e466495aeb9ba012e7",
+    "original_records_sha256": "1b0a0172f7b031b0575a046b6f3429751f69d37eced443a4b778e58690d8bae0",
+    "original_version": "b029a1395872e225879be1a31f55f834040931093cf4ba0dcdefd339740a75af",
+    "public_version": "b029a1395872e225879be1a31f55f834040931093cf4ba0dcdefd339740a75af",
+    "records_sha256": "1b0a0172f7b031b0575a046b6f3429751f69d37eced443a4b778e58690d8bae0"
+  },
+  "e58998c5e0e4a9c1": {
+    "id": "e58998c5e0e4a9c1",
+    "view_id": "stn_plad-filtered-tiles1280-v1",
+    "classes": [
+      "torre",
+      "isolador",
+      "espacador",
+      "amortecedor",
+      "sinalizacao"
+    ],
+    "tiling": {
+      "border_policy": "clip",
+      "enabled": true,
+      "overlap": 0.25,
+      "size": 1280
+    },
+    "sources": [
+      "stn_plad"
+    ],
+    "counts": {
+      "train": 63,
+      "val": 17,
+      "test": 17,
+      "excluded": 0
+    },
+    "original_manifest_sha256": "e58998c5e0e4a9c129aedaf60bb54f0d3e484ce1029a99f0d67051ca6081b7d2",
+    "original_records_sha256": "64c19c3f94507419cf5d9dae17ea09afadaa4d1059d0fe4872f2c0c50d14dcf9",
+    "original_version": "37b872ae4c0acf1a704b77aad1c070909e9b741720791db3e6c6c42467499acb",
+    "public_version": "37b872ae4c0acf1a704b77aad1c070909e9b741720791db3e6c6c42467499acb",
+    "records_sha256": "64c19c3f94507419cf5d9dae17ea09afadaa4d1059d0fe4872f2c0c50d14dcf9"
+  },
+  "1020cf795574194d": {
+    "id": "1020cf795574194d",
+    "view_id": "ttpla-filtered-full640-v1",
+    "classes": [
+      "torre"
+    ],
+    "tiling": {
+      "border_policy": "clip",
+      "enabled": false,
+      "overlap": 0.25,
+      "size": 1280
+    },
+    "sources": [
+      "ttpla"
+    ],
+    "counts": {
+      "train": 58,
+      "val": 15,
+      "test": 15,
+      "excluded": 12
+    },
+    "original_manifest_sha256": "1020cf795574194db001d417d21b5372783f65509d831aa2a856ff2e25bdabac",
+    "original_records_sha256": "19cd3c1893719e4bb9942a2d6795948f9bf18d84cbf47eb50d099abab6eb0d91",
+    "original_version": "fd152dd4c81c64b1df630b9a86a1645d2138369f09745793b9e3aa3225e201e2",
+    "public_version": "fd152dd4c81c64b1df630b9a86a1645d2138369f09745793b9e3aa3225e201e2",
+    "records_sha256": "19cd3c1893719e4bb9942a2d6795948f9bf18d84cbf47eb50d099abab6eb0d91"
+  },
+  "93229dea7f4326d7": {
+    "id": "93229dea7f4326d7",
+    "view_id": "ttpla-filtered-tiles1280-v1",
+    "classes": [
+      "torre"
+    ],
+    "tiling": {
+      "border_policy": "clip",
+      "enabled": true,
+      "overlap": 0.25,
+      "size": 1280
+    },
+    "sources": [
+      "ttpla"
+    ],
+    "counts": {
+      "train": 58,
+      "val": 15,
+      "test": 15,
+      "excluded": 12
+    },
+    "original_manifest_sha256": "93229dea7f4326d7c65f1be179c775a0308b0aa1b26129e11d2a9e208c8a284a",
+    "original_records_sha256": "a29b1d6902527d198902fb2c7b93bd3e81b69d2544c9f370e501578ae59b1f3d",
+    "original_version": "184ae6ef4d4aa973312040963a9b8f61d4c3271142e4d5b7a23ab1ef2fb49753",
+    "public_version": "184ae6ef4d4aa973312040963a9b8f61d4c3271142e4d5b7a23ab1ef2fb49753",
+    "records_sha256": "a29b1d6902527d198902fb2c7b93bd3e81b69d2544c9f370e501578ae59b1f3d"
+  },
+  "87b7c74f0cbb3306": {
+    "id": "87b7c74f0cbb3306",
+    "view_id": "ntv-anotador-v2-tiles1280",
+    "classes": [
+      "torre",
+      "isolador",
+      "fundacao_concreto",
+      "fundacao_estai",
+      "espacador",
+      "amortecedor",
+      "sinalizacao"
+    ],
+    "tiling": {
+      "border_policy": "clip",
+      "enabled": true,
+      "overlap": 0.25,
+      "size": 1280
+    },
+    "sources": [
+      "ntv_anotador_v2"
+    ],
+    "counts": {
+      "train": 68,
+      "val": 10,
+      "test": 0,
+      "excluded": 0
+    },
+    "original_manifest_sha256": "87b7c74f0cbb3306265dcad1cf21887163c0370e3a2d3d5dce59e9b750315443",
+    "original_records_sha256": "15058dee4da7a6e5e64db27ba2baf6d9817e4c4000f4b348a6d67ac0db66a111",
+    "original_version": "44cf713ad53603ffef5acecfe7ea296ac3b0c6a2890fda3c8919eba14e0af815",
+    "public_version": "be2a2135167f11f85c52c1dd3881f2a5ff52e7b35f85ab88fc4d269495e3932d",
+    "records_sha256": "1171e8873321d68feba7c2210efb124e9a97ebf787a72d61e500ff5c42fc390a"
+  },
+  "6782f75dcc38fc80": {
+    "id": "6782f75dcc38fc80",
+    "view_id": "expanded18",
+    "classes": [
+      "torre",
+      "isolador",
+      "fundacao_concreto",
+      "fundacao_estai",
+      "espacador",
+      "amortecedor",
+      "sinalizacao"
+    ],
+    "tiling": {
+      "enabled": false
+    },
+    "sources": [
+      "ntv_ai",
+      "ntv_review_extension"
+    ],
+    "counts": {
+      "train": 0,
+      "val": 0,
+      "test": 18,
+      "excluded": 0
+    },
+    "original_manifest_sha256": "6782f75dcc38fc801be4fa8f790d5e23b141a07c013ebfd2301a3dacff6a2df5",
+    "original_records_sha256": "e211356e6d71efd65f206ecf29b7524b16729a0b6f8021c3e232107e3ba2f9d5",
+    "original_version": "f648faaea4067b07b428807822db0f6d7b5e11a38350432719bbc0b0daf87467",
+    "public_version": "8a2502d84b5041f37825bff0269ef451e31292d0a93d7961feb40ba2ef21c332",
+    "records_sha256": "d192e5e6b78a82d127a391433a26365ca5b1e712081d5847c3fcb124f5082492"
+  },
+  "8f5c98f156cd8327": {
+    "id": "8f5c98f156cd8327",
+    "view_id": "new10",
+    "classes": [
+      "torre",
+      "isolador",
+      "fundacao_concreto",
+      "fundacao_estai",
+      "espacador",
+      "amortecedor",
+      "sinalizacao"
+    ],
+    "tiling": {
+      "enabled": false
+    },
+    "sources": [
+      "ntv_review_extension"
+    ],
+    "counts": {
+      "train": 0,
+      "val": 0,
+      "test": 10,
+      "excluded": 0
+    },
+    "original_manifest_sha256": "8f5c98f156cd8327d317c6c618fe6641f8a9c590158c1f6552639a47ef81bb79",
+    "original_records_sha256": "a1a2904fd3c5dcbb69a4597c493af7e38aceb51badae7c6cd1a69a6c97c3582a",
+    "original_version": "6c7bb41996d029ae1403ea332d4679eef948dc883a84fbb67ca7019af49dab98",
+    "public_version": "c9c327a360889d9027185b5510cd1117516c39ff22978fd1f55243c1d5f03d8a",
+    "records_sha256": "cfe3bddb756cad0b4691018a859e8a3fe0394286912605532dd5171dd4af2003"
+  },
+  "99b8643c55e6642d": {
+    "id": "99b8643c55e6642d",
+    "view_id": "workshop-external_pool-full640-32ebec166da9",
+    "classes": [
+      "isolador",
+      "espacador",
+      "amortecedor"
+    ],
+    "tiling": {
+      "border_policy": "clip",
+      "enabled": false,
+      "overlap": 0.25,
+      "size": 1280
+    },
+    "sources": [
+      "ntv_ai",
+      "ptl_ai",
+      "stn_plad"
+    ],
+    "counts": {
+      "train": 128,
+      "val": 8,
+      "test": 0,
+      "excluded": 0
+    },
+    "original_manifest_sha256": "99b8643c55e6642d176a704f1251bd922b235fe2b4c356daa80b61d95e5b2e36",
+    "original_records_sha256": "3f059796ca500c510f2a06018887f1a4ac93196a6f7a0a3ae0f806abd468e59b",
+    "original_version": "0d50827701d188bfdce7a8f7b567ddc3c5d3c3e66687fccb8c491ce87b71e590",
+    "public_version": "424111ed7966bc686ae04f989e7174e3efd991f3e70bf7f08e7c28158da5780e",
+    "records_sha256": "3f059796ca500c510f2a06018887f1a4ac93196a6f7a0a3ae0f806abd468e59b"
+  },
+  "086c896c0323d2eb": {
+    "id": "086c896c0323d2eb",
+    "view_id": "workshop-external_pool-tiles1280-32ebec166da9",
+    "classes": [
+      "isolador",
+      "espacador",
+      "amortecedor"
+    ],
+    "tiling": {
+      "border_policy": "clip",
+      "enabled": true,
+      "overlap": 0.25,
+      "size": 1280
+    },
+    "sources": [
+      "ntv_ai",
+      "ptl_ai",
+      "stn_plad"
+    ],
+    "counts": {
+      "train": 128,
+      "val": 8,
+      "test": 0,
+      "excluded": 0
+    },
+    "original_manifest_sha256": "086c896c0323d2ebb624da18574e6a77836f55a5d8377a6ed43caa26eb071a13",
+    "original_records_sha256": "f152dc36e17162a40b614038980b1972ea9770f690f23a912cd41ebd7fa39fa9",
+    "original_version": "135509ff1ccea6797cb086141290815c2ceb1fcbea4ddb3ffe669688156745af",
+    "public_version": "4a2a43d20993a4ea917480bbd23feeea5d07f5e98de5a7cd67b4bf509c74db09",
+    "records_sha256": "f152dc36e17162a40b614038980b1972ea9770f690f23a912cd41ebd7fa39fa9"
+  },
+  "6b38b4f8c27a67ff": {
+    "id": "6b38b4f8c27a67ff",
+    "view_id": "workshop-mixed-full640-32ebec166da9",
+    "classes": [
+      "isolador",
+      "espacador",
+      "amortecedor"
+    ],
+    "tiling": {
+      "border_policy": "clip",
+      "enabled": false,
+      "overlap": 0.25,
+      "size": 1280
+    },
+    "sources": [
+      "ntv_ai",
+      "ptl_ai",
+      "stn_plad"
+    ],
+    "counts": {
+      "train": 158,
+      "val": 8,
+      "test": 0,
+      "excluded": 0
+    },
+    "original_manifest_sha256": "6b38b4f8c27a67ff98ac9deec3f020dd5878ca00c1f152c072c037089f9b8d78",
+    "original_records_sha256": "90f24ab08c501ceb19d56e6123708f08f271786215105fae8ec5bf0c84d40acf",
+    "original_version": "a6acfa28458ca4e635c2e78892ab376e275a55f480ae54d6f272bbccc2221fa2",
+    "public_version": "95e6744e5743dd906048529096542399d1b6f839593f237feb06816295fa6648",
+    "records_sha256": "90f24ab08c501ceb19d56e6123708f08f271786215105fae8ec5bf0c84d40acf"
+  },
+  "ee305a96dd5f08a5": {
+    "id": "ee305a96dd5f08a5",
+    "view_id": "workshop-mixed-tiles1280-32ebec166da9",
+    "classes": [
+      "isolador",
+      "espacador",
+      "amortecedor"
+    ],
+    "tiling": {
+      "border_policy": "clip",
+      "enabled": true,
+      "overlap": 0.25,
+      "size": 1280
+    },
+    "sources": [
+      "ntv_ai",
+      "ptl_ai",
+      "stn_plad"
+    ],
+    "counts": {
+      "train": 158,
+      "val": 8,
+      "test": 0,
+      "excluded": 0
+    },
+    "original_manifest_sha256": "ee305a96dd5f08a55a7684f768aa27b6a184a9531cd889dbce9a96620be0bf39",
+    "original_records_sha256": "6c99679be14f1dba73e28f33079ce0349cd02392d00d8722762824085e7c3896",
+    "original_version": "4bbe35f893d8fa08dd84a5edc985c8b3f045785d2790b57e9f7872e7408f76fe",
+    "public_version": "8bca8620c25873e59a1189c8c306b99459902a134109c494052868caa8e7cf19",
+    "records_sha256": "6c99679be14f1dba73e28f33079ce0349cd02392d00d8722762824085e7c3896"
+  },
+  "8d849c7df353f731": {
+    "id": "8d849c7df353f731",
+    "view_id": "workshop-ntv_only-full640-32ebec166da9",
+    "classes": [
+      "isolador",
+      "espacador",
+      "amortecedor"
+    ],
+    "tiling": {
+      "border_policy": "clip",
+      "enabled": false,
+      "overlap": 0.25,
+      "size": 1280
+    },
+    "sources": [
+      "ntv_ai"
+    ],
+    "counts": {
+      "train": 30,
+      "val": 8,
+      "test": 0,
+      "excluded": 0
+    },
+    "original_manifest_sha256": "8d849c7df353f7310c808c1180a7a23b15e63e9304119b09c37b1490413a3def",
+    "original_records_sha256": "df5803a4c674fe17fc054a04084bf258f24fc82799b805d41c2b55c6c1ce229a",
+    "original_version": "850fc6daab702a4907184cbac2d611f4eed5766eedf3c2662c9a06fc47daafb0",
+    "public_version": "e29343bd721a6a4dd173d7084e04b3412b66d562b7daa9166e8689d28c4eda5d",
+    "records_sha256": "df5803a4c674fe17fc054a04084bf258f24fc82799b805d41c2b55c6c1ce229a"
+  },
+  "cf3efb39d13e0b87": {
+    "id": "cf3efb39d13e0b87",
+    "view_id": "workshop-ntv_only-tiles1280-32ebec166da9",
+    "classes": [
+      "isolador",
+      "espacador",
+      "amortecedor"
+    ],
+    "tiling": {
+      "border_policy": "clip",
+      "enabled": true,
+      "overlap": 0.25,
+      "size": 1280
+    },
+    "sources": [
+      "ntv_ai"
+    ],
+    "counts": {
+      "train": 30,
+      "val": 8,
+      "test": 0,
+      "excluded": 0
+    },
+    "original_manifest_sha256": "cf3efb39d13e0b8718fda8725ba5eabfd8708b8fc6ae1cbd8d2383feb6999159",
+    "original_records_sha256": "61d5f17d0ed29227739e66011d7c64c8ce9cb77bd632b278e276249380c90937",
+    "original_version": "ee59b16b394cbe3aed883945026aef107cb1a1c0da2099268d296630bdf7ba94",
+    "public_version": "f8c8a146003311022715084387ecbdfb4cb73b6c7358348cbc63d999bfe34c8a",
+    "records_sha256": "61d5f17d0ed29227739e66011d7c64c8ce9cb77bd632b278e276249380c90937"
+  }
+}

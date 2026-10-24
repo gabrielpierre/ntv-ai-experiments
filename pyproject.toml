@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ntv-ai"
+version = "0.1.0"
+description = "Núcleo de dados e experimentação do Netcon Tower Vision AI"
+requires-python = ">=3.12"
+dependencies = ["PyYAML>=6,<7", "Pillow>=12,<13", "shapely>=2,<3"]
+
+[project.optional-dependencies]
+download = ["gdown==6.1.0"]
+evaluation = ["pycocotools>=2.0.11,<3"]
+dev = ["pytest>=8,<10"]
+campaign = ["scipy==1.18.1"]
+
+[project.scripts]
+ntv-ai = "ntv_ai.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["gpu: integração opt-in que usa ambientes nativos e GPU local"]

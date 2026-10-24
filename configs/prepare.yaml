@@ -1,0 +1,24 @@
+# Informar a entrada por --manifest. Não usar caminhos mutáveis do tipo latest.
+manifest: null
+output: ../data/prepared
+runs: ../runs
+taxonomy: taxonomy.yaml
+mapping: mappings.yaml
+view:
+  id: external_components_bbox_draft_v1
+  classes: [isolador, torre, espacador, amortecedor, sinalizacao]
+splits:
+  mode: none
+tiling:
+  enabled: false
+exports: []
+historical_review:
+  review: ../metadata/external_datasets/v1/similarity_review.csv
+  inventories:
+    - ../metadata/external_datasets/v1/ptl_ai_images.csv
+    - ../metadata/external_datasets/v1/stn_plad_images.csv
+    - ../metadata/external_datasets/v1/mpid_images.csv
+    - ../metadata/external_datasets/v1/cplid_images.csv
+    - ../metadata/external_datasets/v1/ttpla_images.csv
+# Para liberar exports, fornecer curadoria vinculada à versão e declarar cobertura,
+# grupos, splits e geometrias compatíveis. Nunca presumir supervisão exaustiva.

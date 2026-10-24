@@ -1,0 +1,567 @@
+{
+  "by_capture": {
+    "001": {
+      "metrics": {
+        "AP50": 0.8411897617084613,
+        "AP75": 0.7079622617597577,
+        "AP_by_size": {
+          "large": 0.581730323969695,
+          "medium": 0.9194073911150514,
+          "small": 0.7257035750941087
+        },
+        "AR50_95": 0.7521463245492372,
+        "dataset_version": "6c7bb41996d029ae1403ea332d4679eef948dc883a84fbb67ca7019af49dab98",
+        "images": 5,
+        "mAP50_95": 0.6938119343880689,
+        "per_class": {
+          "amortecedor": {
+            "AP50": 0.25146867960744007,
+            "AP75": 0.10766892478721557,
+            "AR50_95": 0.1825242718446602,
+            "mAP50_95": 0.13462261887149235,
+            "recall50": 0.33980582524271846
+          },
+          "espacador": {
+            "AP50": 0.9959231217239368,
+            "AP75": 0.9959231217239368,
+            "AR50_95": 0.9875,
+            "mAP50_95": 0.979299442549297,
+            "recall50": 1.0
+          },
+          "fundacao_concreto": {
+            "AP50": 1.0,
+            "AP75": 1.0,
+            "AR50_95": 1.0,
+            "mAP50_95": 1.0,
+            "recall50": 1.0
+          },
+          "fundacao_estai": {
+            "AP50": 0.9809980998099808,
+            "AP75": 0.9809980998099808,
+            "AR50_95": 0.9650000000000001,
+            "mAP50_95": 0.9444997440920563,
+            "recall50": 1.0
+          },
+          "isolador": {
+            "AP50": 0.8633663366336632,
+            "AP75": 0.8633663366336632,
+            "AR50_95": 0.9,
+            "mAP50_95": 0.7468530800448465,
+            "recall50": 1.0
+          },
+          "sinalizacao": {
+            "AP50": 1.0,
+            "AP75": 1.0,
+            "AR50_95": 0.8800000000000001,
+            "mAP50_95": 0.8801980198019802,
+            "recall50": 1.0
+          },
+          "torre": {
+            "AP50": 0.7965720941842085,
+            "AP75": 0.007779349363507779,
+            "AR50_95": 0.35,
+            "mAP50_95": 0.17121063535680922,
+            "recall50": 1.0
+          }
+        },
+        "predictions_sha256": "6cd36f503bf7c570d9fd9ed7eaab361c311e59127c78d5ed18c5a880dd288413",
+        "protocol": {
+          "area_units": "original_image_pixels_squared",
+          "evaluator": "COCOeval",
+          "iou": "0.50:0.05:0.95",
+          "max_detections": 100,
+          "recall": "COCO maximum recall at max_detections",
+          "split": "test"
+        }
+      },
+      "support": {
+        "boxes": 183,
+        "captures": {
+          "001": 5
+        },
+        "classes": {
+          "amortecedor": {
+            "images": 5,
+            "objects": 103
+          },
+          "espacador": {
+            "images": 5,
+            "objects": 16
+          },
+          "fundacao_concreto": {
+            "images": 5,
+            "objects": 13
+          },
+          "fundacao_estai": {
+            "images": 5,
+            "objects": 20
+          },
+          "isolador": {
+            "images": 5,
+            "objects": 16
+          },
+          "sinalizacao": {
+            "images": 5,
+            "objects": 5
+          },
+          "torre": {
+            "images": 5,
+            "objects": 10
+          }
+        },
+        "images": 5
+      }
+    },
+    "002": {
+      "metrics": {
+        "AP50": 0.6232002321111232,
+        "AP75": 0.5279962281942481,
+        "AP_by_size": {
+          "large": 0.46477207871163057,
+          "medium": 0.5818481848184819,
+          "small": 0.5346534653465347
+        },
+        "AR50_95": 0.5853741496598639,
+        "dataset_version": "6c7bb41996d029ae1403ea332d4679eef948dc883a84fbb67ca7019af49dab98",
+        "images": 2,
+        "mAP50_95": 0.523293739735041,
+        "per_class": {
+          "amortecedor": {
+            "AP50": 0.04722010662604722,
+            "AP75": 0.009504950495049505,
+            "AR50_95": 0.08095238095238096,
+            "mAP50_95": 0.01737961048852138,
+            "recall50": 0.16666666666666666
+          },
+          "espacador": {
+            "AP50": 0.865346534653465,
+            "AP75": 0.7475247524752475,
+            "AR50_95": 0.8333333333333334,
+            "mAP50_95": 0.693993399339934,
+            "recall50": 1.0
+          },
+          "fundacao_concreto": {
+            "AP50": 0.9669966996699667,
+            "AP75": 0.9669966996699667,
+            "AR50_95": 1.0,
+            "mAP50_95": 0.966996699669967,
+            "recall50": 1.0
+          },
+          "fundacao_estai": {
+            "AP50": 1.0,
+            "AP75": 1.0,
+            "AR50_95": 1.0,
+            "mAP50_95": 1.0,
+            "recall50": 1.0
+          },
+          "isolador": {
+            "AP50": 0.3095709570957095,
+            "AP75": 0.0561056105610561,
+            "AR50_95": 0.29999999999999993,
+            "mAP50_95": 0.15102310231023103,
+            "recall50": 0.6666666666666666
+          },
+          "sinalizacao": {
+            "AP50": 0.9158415841584159,
+            "AP75": 0.9158415841584159,
+            "AR50_95": 0.8333333333333334,
+            "mAP50_95": 0.7821782178217822,
+            "recall50": 1.0
+          },
+          "torre": {
+            "AP50": 0.2574257425742574,
+            "AP75": 0.0,
+            "AR50_95": 0.05,
+            "mAP50_95": 0.051485148514851475,
+            "recall50": 0.25
+          }
+        },
+        "predictions_sha256": "8c8118a438688092dcf168f7f65da00a56b1d197e672745e6ff155f27bf1ec43",
+        "protocol": {
+          "area_units": "original_image_pixels_squared",
+          "evaluator": "COCOeval",
+          "iou": "0.50:0.05:0.95",
+          "max_detections": 100,
+          "recall": "COCO maximum recall at max_detections",
+          "split": "test"
+        }
+      },
+      "support": {
+        "boxes": 71,
+        "captures": {
+          "002": 2
+        },
+        "classes": {
+          "amortecedor": {
+            "images": 2,
+            "objects": 42
+          },
+          "espacador": {
+            "images": 2,
+            "objects": 6
+          },
+          "fundacao_concreto": {
+            "images": 2,
+            "objects": 5
+          },
+          "fundacao_estai": {
+            "images": 2,
+            "objects": 5
+          },
+          "isolador": {
+            "images": 2,
+            "objects": 6
+          },
+          "sinalizacao": {
+            "images": 2,
+            "objects": 3
+          },
+          "torre": {
+            "images": 2,
+            "objects": 4
+          }
+        },
+        "images": 2
+      }
+    },
+    "003": {
+      "metrics": {
+        "AP50": 0.7485698569856986,
+        "AP75": 0.5384488448844884,
+        "AP_by_size": {
+          "large": 0.7595056380638063,
+          "medium": 0.593069306930693,
+          "small": null
+        },
+        "AR50_95": 0.7166666666666666,
+        "dataset_version": "6c7bb41996d029ae1403ea332d4679eef948dc883a84fbb67ca7019af49dab98",
+        "images": 3,
+        "mAP50_95": 0.5670734781811514,
+        "per_class": {
+          "amortecedor": {
+            "AP50": null,
+            "AP75": null,
+            "AR50_95": null,
+            "mAP50_95": null,
+            "recall50": null
+          },
+          "espacador": {
+            "AP50": 0.9999999999999999,
+            "AP75": 0.9999999999999999,
+            "AR50_95": 1.0,
+            "mAP50_95": 0.9999999999999998,
+            "recall50": 1.0
+          },
+          "fundacao_concreto": {
+            "AP50": 1.0,
+            "AP75": 0.7491749174917492,
+            "AR50_95": 0.8333333333333334,
+            "mAP50_95": 0.7552805280528053,
+            "recall50": 1.0
+          },
+          "fundacao_estai": {
+            "AP50": 0.44807480748074824,
+            "AP75": 0.4046204620462046,
+            "AR50_95": 0.7833333333333334,
+            "mAP50_95": 0.4192152548588192,
+            "recall50": 1.0
+          },
+          "isolador": {
+            "AP50": null,
+            "AP75": null,
+            "AR50_95": null,
+            "mAP50_95": null,
+            "recall50": null
+          },
+          "sinalizacao": {
+            "AP50": null,
+            "AP75": null,
+            "AR50_95": null,
+            "mAP50_95": null,
+            "recall50": null
+          },
+          "torre": {
+            "AP50": 0.5462046204620461,
+            "AP75": 0.0,
+            "AR50_95": 0.24999999999999994,
+            "mAP50_95": 0.09379812981298129,
+            "recall50": 1.0
+          }
+        },
+        "predictions_sha256": "5a8dd072ae43f1046feda436a7e4191d2fafba113ed536b6babc4c044f4771d1",
+        "protocol": {
+          "area_units": "original_image_pixels_squared",
+          "evaluator": "COCOeval",
+          "iou": "0.50:0.05:0.95",
+          "max_detections": 100,
+          "recall": "COCO maximum recall at max_detections",
+          "split": "test"
+        }
+      },
+      "support": {
+        "boxes": 19,
+        "captures": {
+          "003": 3
+        },
+        "classes": {
+          "amortecedor": {
+            "images": 0,
+            "objects": 0
+          },
+          "espacador": {
+            "images": 1,
+            "objects": 1
+          },
+          "fundacao_concreto": {
+            "images": 3,
+            "objects": 6
+          },
+          "fundacao_estai": {
+            "images": 3,
+            "objects": 6
+          },
+          "isolador": {
+            "images": 0,
+            "objects": 0
+          },
+          "sinalizacao": {
+            "images": 0,
+            "objects": 0
+          },
+          "torre": {
+            "images": 3,
+            "objects": 6
+          }
+        },
+        "images": 3
+      }
+    }
+  },
+  "checkpoint_sha256": "170f65f5427e0648c669013d30f8dfca9c9088a318b634ee8ade0089b73e8ece",
+  "expanded18": {
+    "AP50": 0.7041728896415024,
+    "AP75": 0.5203973172687971,
+    "AP_by_size": {
+      "large": 0.6652872443201319,
+      "medium": 0.6102515508945672,
+      "small": 0.40676332661282855
+    },
+    "AR50_95": 0.590342207055947,
+    "dataset_version": "f648faaea4067b07b428807822db0f6d7b5e11a38350432719bbc0b0daf87467",
+    "images": 18,
+    "mAP50_95": 0.49243549361048605,
+    "per_class": {
+      "amortecedor": {
+        "AP50": 0.14388214268324126,
+        "AP75": 0.0642166146080491,
+        "AR50_95": 0.1275862068965517,
+        "mAP50_95": 0.07705219492088085,
+        "recall50": 0.2413793103448276
+      },
+      "espacador": {
+        "AP50": 0.9433054648359234,
+        "AP75": 0.6805800916564467,
+        "AR50_95": 0.7666666666666667,
+        "mAP50_95": 0.6784756567393988,
+        "recall50": 1.0
+      },
+      "fundacao_concreto": {
+        "AP50": 0.9844413012729843,
+        "AP75": 0.745737654510793,
+        "AR50_95": 0.8099999999999999,
+        "mAP50_95": 0.7432952766370762,
+        "recall50": 1.0
+      },
+      "fundacao_estai": {
+        "AP50": 0.9082338568382767,
+        "AP75": 0.852733403841471,
+        "AR50_95": 0.8129032258064516,
+        "mAP50_95": 0.7026660575754816,
+        "recall50": 0.9838709677419355
+      },
+      "isolador": {
+        "AP50": 0.6872592636602671,
+        "AP75": 0.5924413204798126,
+        "AR50_95": 0.6869565217391305,
+        "mAP50_95": 0.5053166755448697,
+        "recall50": 0.9130434782608695
+      },
+      "sinalizacao": {
+        "AP50": 0.7717821782178218,
+        "AP75": 0.704950495049505,
+        "AR50_95": 0.6727272727272727,
+        "mAP50_95": 0.6366784535596417,
+        "recall50": 0.8181818181818182
+      },
+      "torre": {
+        "AP50": 0.49030601998200246,
+        "AP75": 0.0021216407355021216,
+        "AR50_95": 0.2555555555555556,
+        "mAP50_95": 0.10356414029605343,
+        "recall50": 0.8888888888888888
+      }
+    },
+    "predictions_sha256": "5fda01c2128df3c0bf95b033eaf99b9aed684e1490f13b2bf3c790d1693ded4d",
+    "protocol": {
+      "area_units": "original_image_pixels_squared",
+      "evaluator": "COCOeval",
+      "iou": "0.50:0.05:0.95",
+      "max_detections": 100,
+      "recall": "COCO maximum recall at max_detections",
+      "split": "test"
+    }
+  },
+  "historical8": {
+    "AP50": 0.6339156524348087,
+    "AP75": 0.3246893504001767,
+    "AP_by_size": {
+      "large": 0.14740636481230537,
+      "medium": 0.5237674933869981,
+      "small": 0.3097159358793022
+    },
+    "AR50_95": 0.4119320478615895,
+    "dataset_version": "a212b9ae4d31552cb28c69e79123913ef89c12fd62cfee320d3c7cd2a13c6682",
+    "images": 8,
+    "mAP50_95": 0.34184085028758615,
+    "per_class": {
+      "amortecedor": {
+        "AP50": 0.0,
+        "AP75": 0.0,
+        "AR50_95": 0.0,
+        "mAP50_95": 0.0,
+        "recall50": 0.0
+      },
+      "espacador": {
+        "AP50": 0.9416294570633538,
+        "AP75": 0.41431549169954585,
+        "AR50_95": 0.5473684210526316,
+        "mAP50_95": 0.45661696467818685,
+        "recall50": 1.0
+      },
+      "fundacao_concreto": {
+        "AP50": 0.9889341875364006,
+        "AP75": 0.4889800744780361,
+        "AR50_95": 0.5875,
+        "mAP50_95": 0.5357882405887647,
+        "recall50": 1.0
+      },
+      "fundacao_estai": {
+        "AP50": 0.9288707131582723,
+        "AP75": 0.8325999266593328,
+        "AR50_95": 0.6903225806451613,
+        "mAP50_95": 0.6363305198970287,
+        "recall50": 0.967741935483871
+      },
+      "isolador": {
+        "AP50": 0.682691798591624,
+        "AP75": 0.5369299599643222,
+        "AR50_95": 0.6416666666666667,
+        "mAP50_95": 0.44850645006032563,
+        "recall50": 0.9166666666666666
+      },
+      "sinalizacao": {
+        "AP50": 0.33663366336633654,
+        "AP75": 0.0,
+        "AR50_95": 0.16666666666666666,
+        "mAP50_95": 0.1683168316831683,
+        "recall50": 0.3333333333333333
+      },
+      "torre": {
+        "AP50": 0.5586497473276738,
+        "AP75": 0.0,
+        "AR50_95": 0.25,
+        "mAP50_95": 0.14732694510562883,
+        "recall50": 0.9375
+      }
+    },
+    "predictions_sha256": "e47c344c65404c42f8a2f586b3aac89bee5f4f4f8937bb4bc2046f35ec375d63",
+    "protocol": {
+      "area_units": "original_image_pixels_squared",
+      "evaluator": "COCOeval",
+      "iou": "0.50:0.05:0.95",
+      "max_detections": 100,
+      "recall": "COCO maximum recall at max_detections",
+      "split": "test"
+    }
+  },
+  "job": "rfdetr-nano-tiles1280-seed43",
+  "kind": "historical",
+  "model": "rfdetr-nano",
+  "new10": {
+    "AP50": 0.7450883402469544,
+    "AP75": 0.631172988498234,
+    "AP_by_size": {
+      "large": 0.6719290322990126,
+      "medium": 0.746915127241253,
+      "small": 0.6427925398678049
+    },
+    "AR50_95": 0.6933729108424421,
+    "dataset_version": "6c7bb41996d029ae1403ea332d4679eef948dc883a84fbb67ca7019af49dab98",
+    "images": 10,
+    "mAP50_95": 0.6151027761446904,
+    "per_class": {
+      "amortecedor": {
+        "AP50": 0.18886002826271442,
+        "AP75": 0.08199926208865724,
+        "AR50_95": 0.15310344827586206,
+        "mAP50_95": 0.1001652294331345,
+        "recall50": 0.2896551724137931
+      },
+      "espacador": {
+        "AP50": 0.9461056504132384,
+        "AP75": 0.9080986239041362,
+        "AR50_95": 0.9478260869565217,
+        "mAP50_95": 0.8935004563888213,
+        "recall50": 1.0
+      },
+      "fundacao_concreto": {
+        "AP50": 0.9833663366336631,
+        "AP75": 0.9257946847316312,
+        "AR50_95": 0.9583333333333334,
+        "mAP50_95": 0.9295638353309016,
+        "recall50": 1.0
+      },
+      "fundacao_estai": {
+        "AP50": 0.8718442510150681,
+        "AP75": 0.8634646497287132,
+        "AR50_95": 0.935483870967742,
+        "mAP50_95": 0.8480483486770567,
+        "recall50": 1.0
+      },
+      "isolador": {
+        "AP50": 0.7160009559140057,
+        "AP75": 0.6603529918209212,
+        "AR50_95": 0.7363636363636363,
+        "mAP50_95": 0.5922246315561407,
+        "recall50": 0.9090909090909091
+      },
+      "sinalizacao": {
+        "AP50": 0.9742574257425741,
+        "AP75": 0.9742574257425741,
+        "AR50_95": 0.8625,
+        "mAP50_95": 0.8326685525695428,
+        "recall50": 1.0
+      },
+      "torre": {
+        "AP50": 0.5351837337474152,
+        "AP75": 0.004243281471004243,
+        "AR50_95": 0.26,
+        "mAP50_95": 0.10954837905723598,
+        "recall50": 0.85
+      }
+    },
+    "predictions_sha256": "02cea298b050fe82dc0f3a55a0917a5653b15e14688be23e5fe8240d66bc0f93",
+    "protocol": {
+      "area_units": "original_image_pixels_squared",
+      "evaluator": "COCOeval",
+      "iou": "0.50:0.05:0.95",
+      "max_detections": 100,
+      "recall": "COCO maximum recall at max_detections",
+      "split": "test"
+    }
+  },
+  "predictions_sha256": "02cea298b050fe82dc0f3a55a0917a5653b15e14688be23e5fe8240d66bc0f93",
+  "protocol": "tiles1280",
+  "request_sha256": "9fae40736d3a7eed274b1cf44db18640318a24b53d43ffc538bd2606bdbd5285",
+  "seed": 43
+}

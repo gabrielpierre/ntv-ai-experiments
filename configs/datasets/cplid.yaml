@@ -1,0 +1,15 @@
+id: cplid
+format: voc
+root: ../../data/external/cplid
+images: [raw/repository/**/images/*]
+coordinate_convention: native_endpoints_unverified
+annotation_scope: {}
+subsets:
+  - name: real_normal
+    directory: Normal_Insulators
+    synthetic: false
+    annotations: [raw/repository/**/Normal_Insulators/labels/*.xml]
+  - name: synthetic_defective
+    directory: Defective_Insulators
+    synthetic: true
+    annotations: [raw/repository/**/Defective_Insulators/labels/**/*.xml]

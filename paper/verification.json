@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-24",
+  "scope": "CPU software and numerical verification; no new training or inference",
+  "software_tests": {
+    "platform": "Linux",
+    "python": "3.14.4",
+    "pytest": "9.1.1",
+    "pillow": "12.3.0",
+    "passed": 241,
+    "gpu_deselected": 21,
+    "command": "python -m pytest -m 'not gpu' -q"
+  },
+  "main_metric_replay": {
+    "runs": 18,
+    "images": 18,
+    "objects": 411,
+    "absolute_tolerance": 1e-10,
+    "all_metrics_match": true
+  },
+  "annotation_metric_replay": {
+    "comparisons": 5,
+    "images": 10,
+    "all_metrics_match": true
+  },
+  "frozen_snapshots": 19,
+  "training_recipes": 109,
+  "vlm_requests": 21,
+  "training_inference": "Historical runs preserved. Newly packaged training commands were not rerun on GPU."
+}

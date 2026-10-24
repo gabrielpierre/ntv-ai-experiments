@@ -1,0 +1,34 @@
+version: "1.0"
+reference: doc/analysis/external_datasets/report_content.py
+datasets:
+  ptl_ai:
+    insulator_ok: {target: isolador}
+    insulator_nok: {target: isolador}
+    insulator_unk: {target: isolador}
+    stockbridge_ok: {target: amortecedor, attributes: {tipo: stock_bridge}}
+    stockbridge_nok: {target: amortecedor, attributes: {tipo: stock_bridge}}
+    spacer_ok: {target: espacador}
+    spacer_nok: {target: espacador}
+    baliser_ok: {target: sinalizacao, attributes: {tipo: esfera, face: None}}
+    baliser_aok: {target: sinalizacao, attributes: {tipo: esfera, face: None}}
+    baliser_nok: {target: sinalizacao, attributes: {tipo: esfera, face: None}}
+    bird_nest: {exclude: true, reason: Fora da tarefa de componentes}
+  stn_plad:
+    tower: {target: torre_autoportante}
+    insulator: {target: isolador}
+    spacer: {target: espacador}
+    damper: {target: amortecedor, attributes: {tipo: stock_bridge}}
+    plate: {target: sinalizacao, attributes: {tipo: numeracao, face: frente}}
+  mpid:  # pq "context_attributes" ?
+    "1": {target: isolador, context_attributes: {material: vidro}}
+    iso-su: {target: isolador, context_attributes: {material: ceramica}}
+    iso_poly: {target: isolador, context_attributes: {material: polimero}}
+  cplid:
+    insulator: {target: isolador}
+    defect: {exclude: true, reason: Caixa de defeito não representa o componente inteiro}
+  ttpla:
+    cable: {target: cabo}
+    tower_lattice: {target: torre}
+    tower_wooden: {exclude: true, reason: Fora da taxonomia fina atual; preservado no canônico}
+    # tower_tucohy fica pendente por ausência de equivalência semântica confirmada.
+    void: {exclude: true, reason: Região ignorada; não permite supervisão fechada nesta versão}

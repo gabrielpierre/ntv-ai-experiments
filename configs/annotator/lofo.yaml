@@ -1,0 +1,17 @@
+output: ${ARCHIVE}/resultados/ntv-lofo-planned-20261019
+validated_manifest: ${ARCHIVE}/datasets/ntv-human-final/full640/manifest.json
+expected_images: 4427
+training_template: ${PROJECT}/configs/annotator/training.yaml
+epochs: 100
+captures: [DJI_202509111042_001, DJI_202509111110_002, DJI_202509111142_003]
+# Filled from sources.json of the final human snapshot, never inferred from test predictions.
+capture_anchors: {}
+split:
+  validation_fraction: 0.20
+  block_seconds: 60
+  guard_seconds: 15
+  phash_distance: 6
+  dhash_distance: 6
+  min_objects: 10
+  min_positive_groups: 2
+  seed: 43

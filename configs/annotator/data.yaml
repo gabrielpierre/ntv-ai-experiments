@@ -1,0 +1,19 @@
+output: ${ARCHIVE}/datasets/ntv-human-development-20261019
+baseline_manifest: ${ARCHIVE}/datasets/ntv-anotador-v2-20261016/prepared/manifest.json
+calibration_archive: ${ARCHIVE}/resultados/anotador-v2-20261016/inputs/revisao-20261016-104759-940282.zip
+calibration_sha256: 4ced122c3aed6137b743548408aba3939dc9c55a2b82bb2aa855a0110bb1527c
+review_coco: ${ARCHIVE}/resultados/anotador-combinado-20261016/preanotacoes-restante/preanotacoes.coco.json
+review_database: ${ARCHIVE}/resultados/anotador-combinado-20261016/revisao/dados/revisoes.sqlite3
+image_root: ${ARCHIVE}/datasets/ntv-estaiada-curadoria-20261015
+inventory: ${ARCHIVE}/datasets/ntv-estaiada-curadoria-20261015/proveniencia/manifesto_completo.json
+previous_partition: null
+human_exports: []
+split:
+  validation_fraction: 0.20
+  block_seconds: 60
+  guard_seconds: 15
+  phash_distance: 6
+  dhash_distance: 6
+  min_objects: 10
+  min_positive_groups: 2
+  seed: 43

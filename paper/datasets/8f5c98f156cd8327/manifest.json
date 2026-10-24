@@ -1,0 +1,60 @@
+{
+  "annotations": 273,
+  "images": 10,
+  "issues": "issues.json",
+  "issues_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "lineage": {
+    "frozen_at": "2026-10-23T23:18:35.601459+00:00",
+    "operation": "evaluation_only",
+    "review_snapshot_sha256": "cc9a363d9bac2212c2c380928799066605fabd3c767de7bc7a4cca2add7bfdc4",
+    "selected_reviews_sha256": "b1b0f3d5bfdeadbd8646cc2394709e1961dea38763c1f6fcb5db0582835304f7"
+  },
+  "records": "images.jsonl",
+  "records_sha256": "cfe3bddb756cad0b4691018a859e8a3fe0394286912605532dd5171dd4af2003",
+  "schema_version": "1.0",
+  "sources": {
+    "ntv_review_extension": {
+      "root": "${DATA_ROOT:ntv_review_extension}",
+      "version": "30a3703b87d061ebbc20d8f89e965f2ef256103b1fa9c664f45b565f425e0edb"
+    }
+  },
+  "training_ready": true,
+  "version": "c9c327a360889d9027185b5510cd1117516c39ff22978fd1f55243c1d5f03d8a",
+  "view": {
+    "classes": [
+      "torre",
+      "isolador",
+      "fundacao_concreto",
+      "fundacao_estai",
+      "espacador",
+      "amortecedor",
+      "sinalizacao"
+    ],
+    "eligible": true,
+    "evaluation_image_ids": [
+      "2d960b96cce9cb7a5c6632cb52a8773174372226302dc9fc189504eb95253227",
+      "c17abf2df21ec92d445aeefd965f74d519e4aeeb037d081dc709c335fd64fd27",
+      "43d2e138b040fb0bec7cf3843e9dff0890acd2f8a242a19bd100f23ece04be12",
+      "3c762a6728d07c0e4dc2c9d974a350a41e4ea98a374e5bdf8677693cb2c5ec86",
+      "4a682756003b14d4738b907e40552bee056b45d7e7e91f4f573a3332a2c1c139",
+      "10a57cafec5bbce88d9744efbf9d7eaf8eff29ef51f8c7c54a1560a7ebb9e00d",
+      "0893f5d623ca14102a3ea29a3a98467e8c7cd2763145fdd3ac42963a0e39e2f4",
+      "07621c6abb5b5c123d1abe1ebfa2b0de6eda20758d20caf6f96aa02078bcae25",
+      "61223bce50d15b9cb05dbd8c8c4a970991313e7037dfe675d2d0f5894e11c909",
+      "5eeb0045dabcaf4a1076d07df1138aceda0a1f56bb01f558506b3ec5eb27e512"
+    ],
+    "id": "new10",
+    "image_ids": [
+      "2d960b96cce9cb7a5c6632cb52a8773174372226302dc9fc189504eb95253227",
+      "c17abf2df21ec92d445aeefd965f74d519e4aeeb037d081dc709c335fd64fd27",
+      "43d2e138b040fb0bec7cf3843e9dff0890acd2f8a242a19bd100f23ece04be12",
+      "3c762a6728d07c0e4dc2c9d974a350a41e4ea98a374e5bdf8677693cb2c5ec86",
+      "4a682756003b14d4738b907e40552bee056b45d7e7e91f4f573a3332a2c1c139",
+      "10a57cafec5bbce88d9744efbf9d7eaf8eff29ef51f8c7c54a1560a7ebb9e00d",
+      "0893f5d623ca14102a3ea29a3a98467e8c7cd2763145fdd3ac42963a0e39e2f4",
+      "07621c6abb5b5c123d1abe1ebfa2b0de6eda20758d20caf6f96aa02078bcae25",
+      "61223bce50d15b9cb05dbd8c8c4a970991313e7037dfe675d2d0f5894e11c909",
+      "5eeb0045dabcaf4a1076d07df1138aceda0a1f56bb01f558506b3ec5eb27e512"
+    ]
+  }
+}

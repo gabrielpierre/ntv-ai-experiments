@@ -1,0 +1,609 @@
+{
+  "train": [
+    {
+      "image_id": "031e13bc4a771d9e0d0c7280d847d98ba8a3348e4b6c012f1d1f5c7fa51381c4",
+      "path": "glass/images/frame_1334_jpg.rf.5d380d5c988db04564ed59fec0f2cded.jpg",
+      "sha256": "ff7f8c8d9085526109a9ea1c1a0815888f03deb2a671eb2b821c23c0438530dd",
+      "capture": null
+    },
+    {
+      "image_id": "06f8ec38e0fc9b435be102639eadad5aec8d79f9f3076760d5c9a21fe8abeece",
+      "path": "porcelain/images/161219v_JPG_jpg.rf.f2da323f06cc99f2d3e520c27d32d2fd.jpg",
+      "sha256": "cab6c8b50f2f207bea3f4dfcd307f446cfc86df248704fc3bcc219d60666b6be",
+      "capture": null
+    },
+    {
+      "image_id": "092261c83964a28657d4dab69b8b18cec4bad81139553f96cfad06b442365726",
+      "path": "composite/images/IMG-4569_jpg.rf.01cca3941fd3ad90f0f5383ddf2572a4.jpg",
+      "sha256": "7a9b7e48c8f815f44616b83f6cea36f1a58b848e00d55bb3d64aeb2ff0a52aa4",
+      "capture": null
+    },
+    {
+      "image_id": "0f1299c0376cce5206f6681f58f622f0cc48804aabe2709fcb9876a4c6bd19ac",
+      "path": "porcelain/images/160785v_JPG_jpg.rf.9bebe87907c29f03db27c66143bc2ff1.jpg",
+      "sha256": "68b7c4ddc35ec8d88db345739e6b39444200178914b408790df6701a295b053e",
+      "capture": null
+    },
+    {
+      "image_id": "103e7917cafa366c2263e7b315c0ad73ca913c323e592b727d2b0e60a816a7a8",
+      "path": "glass/images/110_bd-96-_jpg.rf.3ea3bcd5090ed2389cc7a5bd30609c98.jpg",
+      "sha256": "89d830ba60bdbb18c564aab3aeda13cb8a902fad43628abffef62887f90df37c",
+      "capture": null
+    },
+    {
+      "image_id": "131a511c63a21b3a12d1af7b21082af64bc4e3b516fca4137f6da74842d23aac",
+      "path": "porcelain/images/161062d_JPG_jpg.rf.547440273c8c069c4c175ae2d2d27c15.jpg",
+      "sha256": "d6732fa7686e256463f0868f946c6bade9dbd2adddb33e969a2975648a511e4e",
+      "capture": null
+    },
+    {
+      "image_id": "1443e5806e769d62b35590f89795fb62f4a30e3419097f5067f002ef9589f561",
+      "path": "glass/images/DJI_0051_jpg.rf.3f7529e081fdb2b261c4624151f3e85c.jpg",
+      "sha256": "3ddc3a6902c2fa47ca6eda537aacd7d43369e67463ad24aecbc98513a46225d2",
+      "capture": null
+    },
+    {
+      "image_id": "1575e5280da27bcaae3727d6971a61b274093f7146c1ae1f2a2b5e2d0b8e75d4",
+      "path": "composite/images/IMG-4542_jpg.rf.0c52ccf6c4aa78a9a27cd8c4bed3f7db.jpg",
+      "sha256": "00c3dc66100eadf798aae2434d19834cefc87d38816f0ae81fb38d9cfe6d214d",
+      "capture": null
+    },
+    {
+      "image_id": "1652fd33d73ad62f9b64b5e5632701a66001c73164ba81837affdf3e7b97e3b0",
+      "path": "glass/images/DJI_0013_jpg.rf.f5a30fba1b7936fe9bc933f1c213ddd2.jpg",
+      "sha256": "890ddf87ac2a05f3e0dbb68bd637b73c1d68d99bec13f1e05a898a0876ab2b1f",
+      "capture": null
+    },
+    {
+      "image_id": "1ae49a13862da2705c3565c68ded48a8bc23ebfe3141fcea3531a1a454fa1786",
+      "path": "porcelain/images/49_jpg.rf.244e1f860003a1cb697e318fa9791670.jpg",
+      "sha256": "66e14de16c6b8e4a1c5718eef8d3219498787e05ba59c43558ea6d5e8cad579d",
+      "capture": null
+    },
+    {
+      "image_id": "1cc66800b546b19bf98f5430befe2c787996e622ae99d2aeb584828dabedc578",
+      "path": "porcelain/images/170571h_JPG_jpg.rf.2dfb8474e1b645ba2b4c675529d7e761.jpg",
+      "sha256": "3b428b561b17c06e0bc7f8889520ff6464b1b6e4fb014a3ca5f21295fff669ce",
+      "capture": null
+    },
+    {
+      "image_id": "2088916945f2cbb01fa1436ad66460b08158968567999b7b9dfc399b1f622056",
+      "path": "glass/images/99_jpg.rf.0f119ae856bcc95894ffbf1ce3200e43.jpg",
+      "sha256": "c0542fc495585e77516caa04ddf4939073b28a3038fce82ff0bb2ca224eab425",
+      "capture": null
+    },
+    {
+      "image_id": "21870915d164d586e80faff225cfb66db576ddf0a359a0b99a58b4476bd7ffb6",
+      "path": "glass/images/frame_2184_jpg.rf.142858c6fff4f5571a017ef84e1a396d.jpg",
+      "sha256": "882058467a152078aca011dc1c90def9916671047f9e3463547deb0cf1e8a25b",
+      "capture": null
+    },
+    {
+      "image_id": "287afda67ff6fe80493283695735a66aea40d618900eaac3728cf3b102c902b4",
+      "path": "porcelain/images/160716d_JPG_jpg.rf.be080431e92a14ba99c255f46d684e85.jpg",
+      "sha256": "5defc363ef6149bb407ed289cdb02c2e1b3af8e2c9dd24e8596406c235514ead",
+      "capture": null
+    },
+    {
+      "image_id": "298affa32a2f66ae4915d64b320fd03d2061ed6d2665bb61f960a3b392927c6b",
+      "path": "glass/images/frame_684_jpg.rf.0e6c7b8176cd067c60d3ee388e3db7b6.jpg",
+      "sha256": "c66e04dad6081e9bcbbff9d67b2e07afa8d591b38d0b8d10292591629562c97e",
+      "capture": null
+    },
+    {
+      "image_id": "29e1030bcd1876d0e859581cc9385af0e10f3e50378802ae9b024837f5796ca3",
+      "path": "glass/images/image_15_png_jpg.rf.28ad923bc3c5fc4345872e7395bf7885.jpg",
+      "sha256": "b8b756756533043dd1a9988491c939268ca496a8fc7170daee483426ff5de579",
+      "capture": null
+    },
+    {
+      "image_id": "2c4317bf991ff25adbbfd3ccbeb20d1b71c54523a0e360ea169111af172c61e4",
+      "path": "composite/images/110_dl-41-_jpg.rf.4750393dbee05fa335182a3a500128e7.jpg",
+      "sha256": "e33feb8bafb07f2a5d024d9496a41dde15374be26e9a5c4894c8f083cb27d0db",
+      "capture": null
+    },
+    {
+      "image_id": "2cda0c66162c3d2248075b2b41067142b729e07135a07952688bd99b687dcb69",
+      "path": "glass/images/110_kh-92-_jpg.rf.2570446a16bdf5881a41aa4a4a0a6d38.jpg",
+      "sha256": "11609ea8cd7f81d2483ce2ff27873124a045c583d6929faee324851c33d6be71",
+      "capture": null
+    },
+    {
+      "image_id": "38fd0a3b2a70bc145baecea4f6bc4b4412e6a41d82ca71317755959fc90d9e77",
+      "path": "glass/images/63_jpg.rf.c3e516ba20cc466bced7aed9f3b6fa87.jpg",
+      "sha256": "6e8bcf14ef29daa2c25eda46090c1b52f5badc6d0372ab902504ef6d4e1074e9",
+      "capture": null
+    },
+    {
+      "image_id": "3ffbe8356ce3e834c7109714599969373d7de05a0568f2a2067329513c557fe3",
+      "path": "composite/images/IMG-4574_jpg.rf.bb7990e03287a58a9d1131baed73bceb.jpg",
+      "sha256": "d9636bf10933960be628430d071ce7cc9529048915071e9cd400ae56dd81370b",
+      "capture": null
+    },
+    {
+      "image_id": "411e17611042deebc5dec103c88881967bab58dd7b040e7f3f306baf8eb31bab",
+      "path": "glass/images/DJI_0012_jpg.rf.0454eafc109451d7bd1079d58eaa22a0.jpg",
+      "sha256": "78340bf8262162bdcdc7cf24a8f730b4a1f21358c9991427adab9a620e138aa1",
+      "capture": null
+    },
+    {
+      "image_id": "4122a80a062a15ef2824b451c02123c616960fbc5cd9b322e00182224f4cf1da",
+      "path": "glass/images/110_kh-131-_jpg.rf.c4160d531513060abdf092f988b51da3.jpg",
+      "sha256": "3cfe1ce86291b2f2034cdef61ee41397b00029b3cf74069bc28097a448a40d39",
+      "capture": null
+    },
+    {
+      "image_id": "46d7f5aedc8585fdb652f27950344cbc67ece2863e330d6cdf5b39791e8e6520",
+      "path": "porcelain/images/170247d_JPG_jpg.rf.f1c5f0ee9031e539561cb070ab7976f1.jpg",
+      "sha256": "f9e079692c53fb251b95735c8ded1aaf4ed6c4e2bca684269a8a572a66e48272",
+      "capture": null
+    },
+    {
+      "image_id": "4bc93fb3a6b25c4572ec842e682c7bd5b7df13a6c89cde116434882234b0e39e",
+      "path": "glass/images/110kv_tth-35-_jpg.rf.e311565117ead88f4d07cbace4f40b35.jpg",
+      "sha256": "9917b95b1990647d879cb05523392456d3d5aefc6d7452dd3d46647f1511da4a",
+      "capture": null
+    },
+    {
+      "image_id": "4cd20e72f509f63b56ee14ca0498d02370b4881b0af16d5a01594bdf0446b80e",
+      "path": "composite/images/110_dno-8-_jpg.rf.dd2fd48031b5c637514b1a8bcf4eb596.jpg",
+      "sha256": "c00a67010d93e6f9bbf0b7291a2cc6815c06945f9a4b8af9684ba2840b269982",
+      "capture": null
+    },
+    {
+      "image_id": "4ce3609f04538795dce6a4666449d032b308fb93621cd3f75f42a4fd57afaade",
+      "path": "porcelain/images/170615h_JPG_jpg.rf.a1f14ee0f50375ad167715c6cb6ffcc7.jpg",
+      "sha256": "9d800ff77e4cf7927de9fe2b4ce60b24aa05d18f258c1f749c562f1043c404d8",
+      "capture": null
+    },
+    {
+      "image_id": "4e8b5a6179d43986162387051da9288cb57cf3f8ced9074d937b8c49073a4b49",
+      "path": "porcelain/images/170127_JPG_jpg.rf.68522512e6758da60b32a1fe0fa27226.jpg",
+      "sha256": "ba37001816ac2cbf071883d49d7a89cbb4d08c3d871ff6d66b9adca93dc54540",
+      "capture": null
+    },
+    {
+      "image_id": "4ff9b1161c43cb76894b8cc783c566563ca232f09b9d3af1fb0296cd510b4d10",
+      "path": "glass/images/150_jpg.rf.432a696c864ff81be0f74907d9088e40.jpg",
+      "sha256": "8dca9e7a82cef073e4cd7a50c1dd3f62028d4311fe0ea4a6faae33ea9b7ce3c1",
+      "capture": null
+    },
+    {
+      "image_id": "54a346a8593156263c79f0c0bdc3ccf3be7120bb577023f991ad77ea646752ac",
+      "path": "porcelain/images/150477v_JPG_jpg.rf.53f1db4ff2ab8a833703b4669bc41fb5.jpg",
+      "sha256": "74d00d0de4e97eb9dc63b3fe29fa269343a0f111466cd70e7a13cb8df705b10e",
+      "capture": null
+    },
+    {
+      "image_id": "55ad80696ebbd8dbf4cc8a571ee0dc1a1c08d920937b9dc803b9cdacb01a59c6",
+      "path": "glass/images/T335-3-_JPG_jpg.rf.e8482eca7ab4d562d84ab0c38892be67.jpg",
+      "sha256": "143f56d0a3bb4e3fcce6d45c8dde52ea496d25559c59dc5f60113d016c2311c7",
+      "capture": null
+    },
+    {
+      "image_id": "5780fbab40968ce825862e94984c4864841b5ce671e08cd0c2c2056c5a004339",
+      "path": "porcelain/images/34_jpg.rf.f4a742b88309ae2d990411054f2d56c5.jpg",
+      "sha256": "c97cedb37aae64c04e1cbfc97baadd8cb2365ca7f331e2629e1f6b0cea5c368a",
+      "capture": null
+    },
+    {
+      "image_id": "5a72156504492a9fb8399c6eb7085ec8950e78fc3e22422a2bae3de2695d701a",
+      "path": "composite/images/110_dl-33-_jpg.rf.d71278fa90a98bb31ccd13528c9ce5ba.jpg",
+      "sha256": "22f1bb4e5dc70e6f28616abda14f8dbb3384d98e3301a9bc7bb98f25f7f3b952",
+      "capture": null
+    },
+    {
+      "image_id": "5c4ef4aac22bd2c83075fb3d3132a34bf8c8d916ab27aecb88bef91945c2b593",
+      "path": "composite/images/110_dl-84-_jpg.rf.4d53fdf8417408c3e242762438c2f783.jpg",
+      "sha256": "f853de52918d95317d814d5e50741048803b2dcb4151c25737f761b42696fe5a",
+      "capture": null
+    },
+    {
+      "image_id": "621f1d12e51dcc916fb2b67713c389482f6e7bc8c3fa92239f1f47692aea4c57",
+      "path": "composite/images/110_py-124-_JPG_jpg.rf.c5ed800d7f3ea7aa4f5d101bbde51dd7.jpg",
+      "sha256": "5ba6148d57a85e925e25be85a380b4b8973868dbd1806dda59df305a860a48b1",
+      "capture": null
+    },
+    {
+      "image_id": "67163f33be1bd62d69087998e11cfe3977f18aefa06367c3b63371f21b61a2e9",
+      "path": "composite/images/110_py-69-_JPG_jpg.rf.4c560db05e84a3d6ea77e0448af75647.jpg",
+      "sha256": "b575e60c8d6e2b24239f46a51be1b0a095d34b2089baf06393d27207d86da632",
+      "capture": null
+    },
+    {
+      "image_id": "6b2d852eccaafd207dd93ceb579557b795e79f4b3f814457a51df6dfa2fda114",
+      "path": "composite/images/DJI_0001_JPG_jpg.rf.eeb02f6e5fcdcfb56c56d1a05d16456d.jpg",
+      "sha256": "375dfb1afc4a36fc89e91fc4a3885456152f9fda2a2678bcb33692ba5724009b",
+      "capture": null
+    },
+    {
+      "image_id": "6b77a1ce296907190c9f03fa2c75a4a77323017341009a9fcd332f14c9d48bbb",
+      "path": "composite/images/110_dn-76-_JPG_jpg.rf.dcd46983cff05dbb20cbb29cf9591935.jpg",
+      "sha256": "28cc2859be8bc72b17b6cbb27c1aaa494962156a90350d87a55007683af1181c",
+      "capture": null
+    },
+    {
+      "image_id": "6c56d8f6e5897d0a3acc6ce0effd45b152c93afad91e281649aee13406138976",
+      "path": "porcelain/images/150664-2-h_JPG_jpg.rf.c42eb18d02bb3758639135ce7302aad7.jpg",
+      "sha256": "cc99b1e8b3cf74757572edab52acbe5d6351a5e714ca20a82e7fbf22cf1d9993",
+      "capture": null
+    },
+    {
+      "image_id": "6ce2dba78bd8c032bc29f969cc280f28763ef00cedd1956a85deb710fe757b8e",
+      "path": "glass/images/110_gl-67-_jpg.rf.49c050657603a03ae571945f58377a6b.jpg",
+      "sha256": "c5c9b68d960f5dd333242587f884c37f9df3a8db33d804283d69f5d100d7152e",
+      "capture": null
+    },
+    {
+      "image_id": "700faf6c46127e1ee1f9ceec3d05416d3dc08afb014ecfc7284b578be56c9dfd",
+      "path": "porcelain/images/130060v_jpg.rf.8f09c9512725f12c2a9cfe56d5aca326.jpg",
+      "sha256": "ff5da159d3e5bd9bba38fe402e3de71074ac40ce0ba0a26ae486eec052431d6a",
+      "capture": null
+    },
+    {
+      "image_id": "770da5d342801c0ed3623d8863f5eba4f5b4fa36d9db0e0b9458a1f540a0f917",
+      "path": "glass/images/110_gl-94-_jpg.rf.743bb474cb84a04ec3e34aef121fc2cd.jpg",
+      "sha256": "8874821b489a10c44e1dcda662f04651cf7a40b768fbc6210e6273b999562a0c",
+      "capture": null
+    },
+    {
+      "image_id": "86c39d97b61836c5c4e5b9273f370963285e6710550f39e07594d9e7a69d6d4b",
+      "path": "composite/images/IMG-4529_jpg.rf.f7479b145c708cdbb4f24948d6acae03.jpg",
+      "sha256": "752f746423cb13deaed091607ac8ae36ddf6281685356aa3217f72fbeea02177",
+      "capture": null
+    },
+    {
+      "image_id": "8a85eee563946a63e43bd7bf50abf96da61610c11e2f35f4aeb10a0bda217f07",
+      "path": "glass/images/110_qna-45-_jpg.rf.88f32b2af820427ba6fffac21c11087a.jpg",
+      "sha256": "f40665fb09de46e1b3a39884867ff66e5281e587e5ae3f88b0f54764854fa02c",
+      "capture": null
+    },
+    {
+      "image_id": "8bb96581831e6f753d50fdf2da1424eaa92d058026dbf649dcd37bc8a18daeb6",
+      "path": "composite/images/IMG-4550_jpg.rf.acd443bb6d697bfacfbf311c4b8b885e.jpg",
+      "sha256": "d951a29c291acc186f60ce76db7e2511b709aae8b2986a81f2d16e49a82134f4",
+      "capture": null
+    },
+    {
+      "image_id": "8ee2153fce055d34e047b6944c138bd1bdb56b9c1c6e9c44902804e47cb69fcb",
+      "path": "composite/images/110_dl-98-_jpg.rf.598c031d2e8d0cf6be789b7580b5ea51.jpg",
+      "sha256": "0b3cc1552fa00b0a309fb3bbd9bdb8247995646a66537125655536aa2d2f82e0",
+      "capture": null
+    },
+    {
+      "image_id": "8f5042095e89a09ab8bd9c87e61d7aa074bbe3b34da93d9f7a1721f4d521496a",
+      "path": "porcelain/images/130126_jpg.rf.8a01d6ac93f7838a13dcc090abcbacd8.jpg",
+      "sha256": "27e5d55282311996359a3c4589fe747e5a5bad0bb97ac92575f1f849ed3734ac",
+      "capture": null
+    },
+    {
+      "image_id": "9be2d9c389f7a3d1df850a0510c7b12fe94101dcf1fa007e74f7f411285b1c41",
+      "path": "porcelain/images/170037d_JPG_jpg.rf.ce5b300c9e55af160cebc3485478bd7d.jpg",
+      "sha256": "69cc36356581aa9c35c86d8cf0494e72dad77dc35787d0b3f1dd1b5c3ab3dd61",
+      "capture": null
+    },
+    {
+      "image_id": "a425e625c105ae3314e1d977fe751dd5bbf475d012a78d1b0ac4a953885ebc39",
+      "path": "porcelain/images/170551h_JPG_jpg.rf.74baa8bbf74e88c6684f14bfe21a769d.jpg",
+      "sha256": "30dbf619a3261de6316f43222d33204a2591ffdcfc0d0bbbab5668595e73cf96",
+      "capture": null
+    },
+    {
+      "image_id": "ab2c7e93ae1ddc29625bedb496224d373d5be072578f4731186422e869014244",
+      "path": "glass/images/frame_761_jpg.rf.8dd2b0a4732150b8a3a5abe4d4f906af.jpg",
+      "sha256": "740af72f446d4149156b0e14732e0a7e01f4ab4f9f335433307d18f9f26a45e0",
+      "capture": null
+    },
+    {
+      "image_id": "ae7a3f7201aebdc9be7a6a43c7e6eeadddc5f181e432b11c05e92837bf4fbf94",
+      "path": "porcelain/images/160440h_JPG_jpg.rf.d92efcbaa27dc059057e72d8a4858070.jpg",
+      "sha256": "09fe074226e3cc22938d321b93399432079b45fd7c25feaaf2c926168296bb82",
+      "capture": null
+    },
+    {
+      "image_id": "b5a67acd90037e676433be9afd1877d2754120cd01740e7accddfaea0dbf50f8",
+      "path": "porcelain/images/60_jpg.rf.67316fd9aba6396899e7a9660ad5e49e.jpg",
+      "sha256": "c13c74d4df3a6eec8dd6f0afac0c6d209f57b5ac3ff02f467e4e4049453064d4",
+      "capture": null
+    },
+    {
+      "image_id": "b9257c2e0b98f3b7db69c21e0653eb5cc39fd162886366beb3afb2ebb191d671",
+      "path": "composite/images/110_qna-68-_jpg.rf.0e37666671bf60d938442a3bfc8d54c1.jpg",
+      "sha256": "eccd8c7dcd5357663b383074cb7edeffcc1d06b76cdb0219a5431b339255d2a1",
+      "capture": null
+    },
+    {
+      "image_id": "b985dead125c5d0dbcb09177852783e2c9fef4872363db9fecb3fd50f557b050",
+      "path": "composite/images/DJI_0018_JPG_jpg.rf.b8fdd8ff741a53aa0fb54a34970bd8d4.jpg",
+      "sha256": "14ac8348611b66f21aad1ebb7379903a11d3abd637fb0c7f540b852d6b33e23d",
+      "capture": null
+    },
+    {
+      "image_id": "be6d7e3908e7ec730ec281db78ee5eaa4c3bc2bf15cc71d81fddc800b7ced529",
+      "path": "glass/images/110_bd-46-_JPG_jpg.rf.1dc70adb37ea10c89f82e1196a630579.jpg",
+      "sha256": "5d089ab7df8af2b2f2f5e2548cbe301620a0b26e5c663a627c9827cd9fa7be13",
+      "capture": null
+    },
+    {
+      "image_id": "c591497c97a786ec1c49d789cc64935773757adaaf051f51a554d8ff3741ddbc",
+      "path": "glass/images/110_dn-63-_JPG_jpg.rf.a233f1fdda7b6e745e46a0c62d45479e.jpg",
+      "sha256": "fcb2507636a3b52358289eda9a7a6c939a34ca15ac7b0a035a1e8f8fc7f938b7",
+      "capture": null
+    },
+    {
+      "image_id": "c674acd1c4406a3d4e0871e17d631701078240b5119bf1d4fd8403d0689d6005",
+      "path": "porcelain/images/160507h_JPG_jpg.rf.b207266e48d827888effaa2755bf4bb9.jpg",
+      "sha256": "945b2ae1932f870d9559fd2c6f1a11209fa1203ebd82ee147c520a66ab02903a",
+      "capture": null
+    },
+    {
+      "image_id": "ccec6e9cb0ee9b5172a9fef6f88f07195828fcc94967638f1d287f5c71009067",
+      "path": "composite/images/DJI_0511_JPG_jpg.rf.4f8e0abca66cbb7e4a2dc0db1c757365.jpg",
+      "sha256": "6a84fef0c8301428ccee12f6dd598c130ab17af8719a6c21508f9fd167e9c836",
+      "capture": null
+    },
+    {
+      "image_id": "d932ce96ebdae56671be9c6ddec3461fb338ca7c1527c93c67069979fe536b9c",
+      "path": "composite/images/110_py-125-_JPG_jpg.rf.d74f12ed4c3e80943d9c8800db2a4c82.jpg",
+      "sha256": "a79bf412cbf40845c71ae94541b36e5894a317a22fe8f64afd2793b63c48d4ed",
+      "capture": null
+    },
+    {
+      "image_id": "db535e292b0c48d02d4feb52a8bb6bbb7ffe89a6597815c13feb7ed78a8676ea",
+      "path": "composite/images/110kv_tth-4-_jpeg_jpg.rf.c29daecf91aa29669e2259ed80dcdb0a.jpg",
+      "sha256": "694f7420e618f285f7ba66eaf0581f038edde4182e670bba5a1dca82d7241781",
+      "capture": null
+    },
+    {
+      "image_id": "dbc5a603a7a522d425c3374db0256c214a678badc9911f9096a0998a35c88202",
+      "path": "porcelain/images/151397d_jpg.rf.bd2525253208fba8bf6867ccb22b55bb.jpg",
+      "sha256": "e9434cf20eb95c57b16aa6de21933edf552309c012937ca2870285770028e375",
+      "capture": null
+    },
+    {
+      "image_id": "df04cb02549917f175166b9c8eec1be91985578ae6f826735f3fc8c63fa22997",
+      "path": "composite/images/IMG-4573_jpg.rf.329543825a626ffeb4a6032a77faaf71.jpg",
+      "sha256": "5a750aa814b4191a32774b63420ab5da78d2e8f58bad6a451115e08e8ee4ca83",
+      "capture": null
+    },
+    {
+      "image_id": "e056fdcac0e6ec6fa0c182697f8731acd7dcbd9b98c19cf33809dea794b12656",
+      "path": "porcelain/images/160036_JPG_jpg.rf.1bfdcc44364b92c1c3b415a009a68611.jpg",
+      "sha256": "3389a0d5656e959997fe4219e3a60aa3a6ff079b10121beb80854b5c3e8d751b",
+      "capture": null
+    },
+    {
+      "image_id": "e66b5ff3bac574ad6dbb04cdaa96ffa76ecb9e3abb5654cc752e1d631effa4df",
+      "path": "glass/images/110_bd-86-_jpg.rf.a4d65470b0508587851c46eae097f580.jpg",
+      "sha256": "59600d95a45a41ec2a9496b9a66fc78ac6410362cb168fa94b97d1f37acaa5b0",
+      "capture": null
+    },
+    {
+      "image_id": "e95161ea1c3bbe08831af1b3a186894a51dcacbc66beeff07f1b1acc2ab73b2a",
+      "path": "porcelain/images/160081_JPG_jpg.rf.ccfcd9dd1e259d815e4145e65d0f77d5.jpg",
+      "sha256": "4ac49b6a068806ab8eb349a287c04805fba56f42b071db27fd2d84333c739127",
+      "capture": null
+    },
+    {
+      "image_id": "f1c8c1d2309e93aed01414d514f8f47224774a83e0b0b141654bb7b43bcd5dc6",
+      "path": "composite/images/110_qn-132-_JPG_jpg.rf.f2bda15446ba98e044096b6cb5a416f1.jpg",
+      "sha256": "cc3937c9e1fdf4036116fb635f62f6f2dc1a957d7c77e9d813ffd488dc514204",
+      "capture": null
+    }
+  ],
+  "val": [
+    {
+      "image_id": "00d0e4f90195183c23222eeca7988202c5c171ca65cc3df8a1b2b584dff26a96",
+      "path": "composite/images/DJI_0470_JPG_jpg.rf.3bb735724a085c553cab5485e63c6bb3.jpg",
+      "sha256": "82759a02a21741a938b7aa010a722ea3ec42023d267415757b3eeda22afbc95e",
+      "capture": null
+    },
+    {
+      "image_id": "20fc4298d688d0178e1c94bdc1d40590d6219f93d1480331608736d797eaaf31",
+      "path": "composite/images/110kv_tth-57-_jpg.rf.dd0cfa2ecd1ff5b111323cc892189acb.jpg",
+      "sha256": "cec56b84a5e7a5c1f5c3229d55cf55fb8d51624a93bcdf2bdb5b5f760bcc8981",
+      "capture": null
+    },
+    {
+      "image_id": "3549143a6c1afe39cceecf6d8accb21fb553a0a6963c488c98bae1d2114e094e",
+      "path": "glass/images/19_jpg.rf.ae51f68080ca6271da55ab341a925842.jpg",
+      "sha256": "8a41da2d31e35939fbacf401f6e4a4fe7d02379af8fc1926a9fda3a640f88635",
+      "capture": null
+    },
+    {
+      "image_id": "4f7f475f4e0f86f44a81a140467d36e22954a8bef39d4897ae6c46ca42d7d60a",
+      "path": "composite/images/110_dno-13-_jpg.rf.d3fba2d90fe1b18082da2086582ca302.jpg",
+      "sha256": "331960e8180dff59e3f49f7a704c8257ac5fd334041260d28547fc4d0499b560",
+      "capture": null
+    },
+    {
+      "image_id": "50225b7455b103570ae6a39b69598085db5017dab7b10192a5910021136fe3eb",
+      "path": "glass/images/110_qt-33-_jpg.rf.69fbfb55ebaf7a3f28524ff1236576aa.jpg",
+      "sha256": "3feb8bfeca5d5e6ec88a37532324980d8ef70612d3046cd95ef8b368a5b03080",
+      "capture": null
+    },
+    {
+      "image_id": "5e3e151d5ea86907e375bdbfa24fcd4d15b883da7104ae4a431d68fb4eb7485a",
+      "path": "porcelain/images/170715_JPG_jpg.rf.b8943c9cd3a6dc211c7c66b4a013af66.jpg",
+      "sha256": "5deef6dd1add5563e0a1c0d070d90f1c61b0b8107c65f348d7ddfa6b58347f92",
+      "capture": null
+    },
+    {
+      "image_id": "69f1540cb076f404158e6509f8d67d4049d76b6b0c12a0c06375749d8e153a99",
+      "path": "composite/images/110_dl-25-_jpg.rf.9e11f4a5df0ba86926eaf39c7f9aa73c.jpg",
+      "sha256": "16545fc726435ef61d8ad09891456173ee4f807321f87532987c47853bdcf8ce",
+      "capture": null
+    },
+    {
+      "image_id": "78266477d8e8b00660054e0c40e4afad6b4ee3f08694063dddcc6081ebf50069",
+      "path": "porcelain/images/150878v_JPG_jpg.rf.a5b120677c29bb3817aea432444c2b52.jpg",
+      "sha256": "de6df6a449616f5029d6fd084d1a785075f93c283851f57d81853da51b3796cf",
+      "capture": null
+    },
+    {
+      "image_id": "85b256a9cb72984200c0dc15e89bbc9718df0dff6b47b6fd74d2eb52e00f468a",
+      "path": "glass/images/110_gl-88-_jpg.rf.71bb1afd7090e6254ab4f7e25f8d6f66.jpg",
+      "sha256": "ee591e7ac241357bc1c538caf97e750896e86d2f42967d1533768c9b19a72eaa",
+      "capture": null
+    },
+    {
+      "image_id": "885124f739dfedcefb4a2b8702e98b1a36a502e58b568dad7775e49ab9c315d9",
+      "path": "glass/images/110kv_tth-47-_jpg.rf.3b595c640412bcdcf9518099c8ee35eb.jpg",
+      "sha256": "6274a09a1369758065b73a00f57125d069286eae8efc8fbcb22d1577cd27d73d",
+      "capture": null
+    },
+    {
+      "image_id": "9cd93825e50f1b10f5fe6c24256f90afce091f825addc2a18ddf4605227946db",
+      "path": "glass/images/110_qb-23-_JPG_jpg.rf.a08a656aaee675d9f3872d4065c4370a.jpg",
+      "sha256": "e1d44a56f9c6ba13bde00a6b4642945124ad7d31170d3431b1b1b2751c0b2eb6",
+      "capture": null
+    },
+    {
+      "image_id": "a9078f17100b3e7cbb7240ce3c8e614a899f6fdd51b90a3c242656e4b93f24f6",
+      "path": "porcelain/images/150839v_JPG_jpg.rf.5a482954c3c94fca3324481e5782997c.jpg",
+      "sha256": "f1ba74cba880dc0fb8d6f1e3b294923e9741d7530b91b6edb671344d58075a7b",
+      "capture": null
+    },
+    {
+      "image_id": "b7d8c18160c6e2342d0c0e27bce75c302fad62fbf0faca86e2886d09d48842ed",
+      "path": "composite/images/110_kh-71-_jpg.rf.26d7aca3b8bcf274c12c41dd2a4e5fe1.jpg",
+      "sha256": "f73674c9cd0e1c3383ea0443d1f21fd385d02444b2217a7e547012467abab3c7",
+      "capture": null
+    },
+    {
+      "image_id": "bc2e5d857376355317f20dd9b8680531bc9c6bf3fe39051b73215fcae52c42ab",
+      "path": "porcelain/images/170208d_JPG_jpg.rf.4c6a08c8aaada6e9a1a06a25ec26707b.jpg",
+      "sha256": "c29b1b686482fda01660017e24ef3bb307b9c20328bd9df811d81e04e88f71d1",
+      "capture": null
+    },
+    {
+      "image_id": "dc43f597ee29b17bd33da43ab7c05c9765b874e53d6ff4d1c421b9344b1a4916",
+      "path": "porcelain/images/151368d_jpg.rf.940d3a20a33f032492993b8ffd90645d.jpg",
+      "sha256": "0c2b53262f3b0a00c1319c5bcd3c2ce3e44962137d2a0a0fe2d48586c21470d2",
+      "capture": null
+    },
+    {
+      "image_id": "e2fbd08c1339f1444e9e59a58f622a8dc802a514502e978168021f5da5f831e3",
+      "path": "composite/images/110_qna-73-_jpg.rf.e2c2905fb3a6a8c72a777c99db7d0c23.jpg",
+      "sha256": "b28800be31e011e589ab9607c14b5f36952a976b695d8186b1302e69bdcc21c8",
+      "capture": null
+    },
+    {
+      "image_id": "e7ad77694f03502909da58a81f6eba008ac9ff741a80eb03397520dcba870b1e",
+      "path": "porcelain/images/160047d_JPG_jpg.rf.0fb6a4a9700639e595a1108ff98dadc3.jpg",
+      "sha256": "d654b694fd3b0831eac344411b7c3b761ad1b55c93736454e627a7c31adc0f7e",
+      "capture": null
+    },
+    {
+      "image_id": "fb9b676e37e9b9f70ada95e3ecde5911a40228995352221e11668f443ff245f0",
+      "path": "glass/images/110_gl-2-_jpg.rf.5811f1b3ff2187f56287b25d970778db.jpg",
+      "sha256": "6095b062105cce3e21165e6764641bdaa2d448b3c63f2d8c0e52d8d869d6e4f9",
+      "capture": null
+    }
+  ],
+  "test": [
+    {
+      "image_id": "0a9e902790ffffc68ed20bae62415e3436265802284af8d5655557eecb28e304",
+      "path": "glass/images/110_gl-71-_jpg.rf.9529998aff71cd883eb7dd8897cdbaf1.jpg",
+      "sha256": "6c5d58656ff18afd08b88fec3008a63d74e429f6434cc9d28714b7d4c3c27703",
+      "capture": null
+    },
+    {
+      "image_id": "2e6e101e79b6c1f933c195e22ea17fc48fae2be5935d72eae71249aa19ab79d6",
+      "path": "porcelain/images/150438v_JPG_jpg.rf.33ee69302232c4b10214b2a8e22b2c13.jpg",
+      "sha256": "8461515338585d1064324d2c00821efba89e55d8464169b8c0f66949d13f3e74",
+      "capture": null
+    },
+    {
+      "image_id": "2f6eaf948bbfb144580080ec2693ba8f895b713ea058e0be2d0de873d17ed96f",
+      "path": "composite/images/IMG-4585_jpg.rf.6ba51207d57c6b9f415ce63d6205614a.jpg",
+      "sha256": "62c7b7db61ac4ab7a5e3b9aede18d35b2cfddfc92f3dba6b8affd07423d50313",
+      "capture": null
+    },
+    {
+      "image_id": "307e30a8ee66488c0c880e2eb0a357f9083035eea4bdf1ea0a58840888b2db45",
+      "path": "porcelain/images/57_jpg.rf.aabb75d818e6d6447c93e1b551604a4f.jpg",
+      "sha256": "2b1f888cc51906b9efe16ff0e72293a59ded8d3202c87089c4a74c8c3432facc",
+      "capture": null
+    },
+    {
+      "image_id": "3fea6af910c032455d0f58b89d8a54dfb2d1c6bebd209bdd2366e4fc9642a8ae",
+      "path": "glass/images/76_jpg.rf.33bc95ddfe219ca344eb92f675c6f8ac.jpg",
+      "sha256": "20fd0bb935358150be95bc07f8498eb235de4a9b9e0ddcdcf2d8c623d268a0d0",
+      "capture": null
+    },
+    {
+      "image_id": "6db4ca8fa1e4ede02fa0f371d7233c118a65625e2257269a7adf831887e4857e",
+      "path": "composite/images/IMG-4577_jpg.rf.81a97bbc5bfec49d12ee1de8c471e381.jpg",
+      "sha256": "696faa021b75cc2bdb9c3187c65e036142ed39141f621c43245cdd604403738f",
+      "capture": null
+    },
+    {
+      "image_id": "6fce70c14a5ff0c101f0e72dd26003dd6b5fadeea2b36babdb355f3a2f35c44f",
+      "path": "composite/images/110_py-120-_JPG_jpg.rf.4ec3cea4d0789b1f6c7ab1df0d71e4bb.jpg",
+      "sha256": "1f8ba9583e6a22d0e65d754d47b59a3a31decfac0d1c34961573df4515d485fe",
+      "capture": null
+    },
+    {
+      "image_id": "7d8d3d1eded55206077104cd8aff80f9ece18e374bdf440ae625d56f420e621d",
+      "path": "porcelain/images/130027v_jpg.rf.1354de42cbbdd9b000d830954fd0e2a6.jpg",
+      "sha256": "80718130440969caf497836db87447c1519f25b26e25a1cbe8d5e0879f81b82b",
+      "capture": null
+    },
+    {
+      "image_id": "95c777eb7bc05e76d20ab64592ffa40d8a11fef0eaa78dae05aadac3237dd8c3",
+      "path": "porcelain/images/170828-2-v_JPG_jpg.rf.fddc1fb4b96f650fc3920fc19f2299d2.jpg",
+      "sha256": "de1d1cd24108d5e13bdccae8f155ee7a1fa0c65816e3e063bf7c791856ee9b16",
+      "capture": null
+    },
+    {
+      "image_id": "9a526f158108e75c8e5823a4dc162cc69273dd435214cfb9b5893dbbf9cf757e",
+      "path": "composite/images/110_dl-20-_jpg.rf.0b054821c87efc119e6c758f8c723a01.jpg",
+      "sha256": "5919991f48238fa7120d91990c2ed9940fa2a51f4cb86cb67e9c00a085f3e407",
+      "capture": null
+    },
+    {
+      "image_id": "ad942dc9a990bc4265967674fd0a37758f6c1ad5f35a2d335f1e07f8037edd7b",
+      "path": "porcelain/images/130060d_jpg.rf.af3b649aa931068f049b41bb3322a9c2.jpg",
+      "sha256": "32b0d61801d1ec524d4e9a507819cee1b5244e4267fa91a787c710db6fe72f77",
+      "capture": null
+    },
+    {
+      "image_id": "c2fdeeba30fb65564def5bdeea46d09a26ae5afea3b9b4bba640eca31e03d0dc",
+      "path": "composite/images/110_kt-8-_jpg.rf.6eb57657c541a1b5978e5bc81a2b89e7.jpg",
+      "sha256": "23e0b1b73e282355ef352ce8a73cefe39fba6eb3a8e0781a8fcac1dd840ec32c",
+      "capture": null
+    },
+    {
+      "image_id": "cfc8cf478cec803e26d0c1f993b217a01e0d72574a22106534865eafb65f7d37",
+      "path": "glass/images/110_gl-118-_jpg.rf.b6cc3f6828809e4278061f32b5f03d2e.jpg",
+      "sha256": "f5af3f3c92b0083440a293be17c28ea78ba0b901840192727b94379cbb7b39c6",
+      "capture": null
+    },
+    {
+      "image_id": "db3d2774e0d6b74a402a7f9bb01c10d4ca775166afdaa25ea67e47b2dc8f3071",
+      "path": "glass/images/88_jpg.rf.cbab23508af90a3fa1d90648bbe9c1f9.jpg",
+      "sha256": "7ac8dfa6ab872cc384e9abfc6f5ab255868d69ebabd204fc728cb94d17504f64",
+      "capture": null
+    },
+    {
+      "image_id": "e137a05a5d6a9f0cfabdd6f1a85bdbf8d1db1197577b02aa65d1acbe881ba263",
+      "path": "porcelain/images/170332v_JPG_jpg.rf.3e93f30e9a2271583f2cf89e8b866187.jpg",
+      "sha256": "f12df1c2f5990adaea8c88bc8bc6928f03af39a6338023c795fb83abfeb03fad",
+      "capture": null
+    },
+    {
+      "image_id": "f4cba96ffb41fca35cfeaf9e52df5f447e11a4e11f7f9c846bf948e344781e86",
+      "path": "composite/images/110_dno-10-_jpg.rf.763781106fef8c2037142a0c85c5b786.jpg",
+      "sha256": "e8f1ff1bcdf429e389a98011464e62e7318dc15d6fae1d71f6bfd65b3baf41a5",
+      "capture": null
+    },
+    {
+      "image_id": "ff915ce12396bcbfdbd345a06e870ab2673955046645cd50df640726c72cb0bf",
+      "path": "glass/images/3_jpg.rf.3c1512d381ee0034f6716a2af59ca775.jpg",
+      "sha256": "1374ae8eca65c8bc17245e95a89bc4f8f7ba2b445f6d603079c2de2744744b51",
+      "capture": null
+    }
+  ],
+  "null": []
+}

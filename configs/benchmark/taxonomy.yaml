@@ -1,0 +1,76 @@
+version: benchmark-1
+description: Componentes de LT; atributos ausentes permanecem unknown.
+labels:
+  torre_estaiada:
+    attributes:
+      componente:
+      - estrutura
+      - fundacao_estrutura
+      - estai
+      - fundacao_estai
+  torre_autoportante:
+    attributes:
+      componente:
+      - estrutura
+      - pe_stub
+  ferragem:
+    attributes:
+      tipo:
+      - manilha
+      - olhal
+      - grampo_suspensao
+  fixacao:
+    attributes:
+      tipo:
+      - parafuso
+      - pino
+      - porca
+      - contraporca
+      - palnut
+  isolador:
+    attributes:
+      material:
+      - vidro
+      - polimero
+      - ceramica
+  cabo:
+    attributes:
+      tipo:
+      - para_raios
+      - condutor
+  sinalizacao:
+    attributes:
+      tipo:
+      - advertencia
+      - numeracao
+      - fase
+      - esfera
+      face:
+      - frente
+      - verso
+  faixa:
+    attributes:
+      tipo:
+      - servidao
+      - acesso
+  cerca:
+    attributes: {}
+  amortecedor:
+    attributes:
+      tipo:
+      - stock_bridge
+      - espiralado
+  espacador_hexagonal:
+    attributes:
+      tamanho:
+      - pequeno
+      - grande
+  fundacao_concreto:
+    attributes: {}
+  fundacao_estai:
+    attributes: {}
+coarse_labels:
+  torre:
+    attributes: {}
+  espacador:
+    attributes: {}

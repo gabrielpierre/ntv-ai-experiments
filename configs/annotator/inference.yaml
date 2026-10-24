@@ -1,0 +1,14 @@
+output: ${ARCHIVE}/resultados/annotator-proposals-20261019
+selection: ${ARCHIVE}/resultados/annotator-selection-20261019/selection.json
+human_manifest: ${ARCHIVE}/datasets/ntv-human-development-20261019/full640/manifest.json
+image_root: ${ARCHIVE}/datasets/ntv-estaiada-curadoria-20261015
+inventory: ${ARCHIVE}/datasets/ntv-estaiada-curadoria-20261015/proveniencia/manifesto_completo.json
+review_sources:
+  - coco: ${ARCHIVE}/resultados/anotador-combinado-20261016/preanotacoes-restante/preanotacoes.coco.json
+    database: ${ARCHIVE}/resultados/anotador-combinado-20261016/revisao/dados/revisoes.sqlite3
+batch_size: 50
+nms_iou: 0.50
+reserve_mib: 2048
+pilot_limit: 30
+class_overrides: {}
+mass_inference_authorized: false

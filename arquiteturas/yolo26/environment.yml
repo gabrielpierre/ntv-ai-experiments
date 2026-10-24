@@ -1,0 +1,12 @@
+name: ntv-yolo26l
+channels:
+- conda-forge
+- nodefaults
+dependencies:
+- python=3.12
+- pip
+- pip:
+  - --extra-index-url https://download.pytorch.org/whl/cu128
+  - torch==2.10.0+cu128
+  - torchvision==0.25.0+cu128
+  - ultralytics @ https://files.pythonhosted.org/packages/9a/49/4e250de54d420d0451ad33f64bb787f9ad56941a109f28b90bd0e0a79645/ultralytics-8.4.155-py3-none-any.whl#sha256=0f872e119fb4ebb166857a88632dab876e9daccacee79f27cd416bccdec36510

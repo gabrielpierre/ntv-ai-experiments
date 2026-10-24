@@ -1,0 +1,12 @@
+backend: yolo26
+variant: s
+weights:
+  path: data/assets/yolo26s.pt
+  sha256: 646f8bc3fe0a656803d95c294f7852321748cb29d13466a1af8862e2db384a1b
+pretraining: COCO; checkpoint oficial do fornecedor
+package:
+  name: ultralytics
+  version: 8.4.155
+  wheel:
+    path: data/assets/ultralytics-8.4.155-py3-none-any.whl
+    sha256: 0f872e119fb4ebb166857a88632dab876e9daccacee79f27cd416bccdec36510

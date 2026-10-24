@@ -1,0 +1,9 @@
+id: mpid
+format: yolo
+root: ../../data/external/mpid
+images: [raw/MPID/**/images/*]
+annotation_scope: {}
+subsets:
+  - {name: glass, yaml: raw/MPID/glass_MPID/data.yaml, material: vidro}
+  - {name: porcelain, yaml: raw/MPID/porcelain_MPID/data.yaml, material: ceramica}
+  - {name: composite, yaml: raw/MPID/composite_MPID/data.yaml, material: polimero}
